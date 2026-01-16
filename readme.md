@@ -1,7 +1,10 @@
 # Hytale Polish Translation
 This project aims to translate the Hytale game to polish language.
+
 I try to keep the translation true to the original, but I will be making some creative decisions if I have to. 
+
 For example words that can't be translated straight forward will be replaced by words with similar meaning.
+
 I won't be translating any unique names, like dimension or race names that does not exist in real world.
 
 ## Progress
@@ -33,9 +36,10 @@ I won't be translating any unique names, like dimension or race names that does 
 
 ## Milestones
 You can expect a release after each of this milestones:
-[ ] - Finish translation of the Game Client (Expected by Jan 31st)
-[ ] - Finish translation of the Game Server (Expected by Feb 28th)
-[ ] - Finish translation of the Cosmetics (Expected by Mar 15th)
+
+- [ ] Finish translation of the Game Client (Expected by Jan 31st)
+- [ ] Finish translation of the Game Server (Expected by Feb 28th)
+- [ ] Finish translation of the Cosmetics (Expected by Mar 15th)
 
 ## License
 This project is not under any license. Terms below might change in the future. Here's what you can and can't do:
