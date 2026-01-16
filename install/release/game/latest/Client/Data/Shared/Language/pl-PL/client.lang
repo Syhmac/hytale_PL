@@ -338,265 +338,265 @@ assetEditor.packModal.errors.groupRequired = Grupa paczki jest wymagana
 assetEditor.packModal.errors.versionRequired = Wersja jest wymagana
 assetEditor.packModal.errors.versionInvalid = Nieprawidłowy format wersji. Użyj semantycznego formatowania (np. 1.0.0, 2.1.3-beta, 1.0.0+build123)
 
-assetEditor.readOnlyAssetBar.message = This asset is read-only and cannot be edited, since the asset pack is read-only.
-assetEditor.readOnlyAssetBar.overrideButton = Override Asset
-assetEditor.readOnlyAssetBar.tooltip = This asset cannot be edited because the asset pack it is in is read-only.\n\
+assetEditor.readOnlyAssetBar.message = Ten zasób jest tylko do odczytu i nie może byc edytowany, ponieważ paczka zasobów jest tylko do odczytu.
+assetEditor.readOnlyAssetBar.overrideButton = Nadpisz Zasób
+assetEditor.readOnlyAssetBar.tooltip = Ten zasób nie może być edytowany, ponieważ znajduje się w paczce zasobów, która jest tylko do odczytu.\n\
 \n\
-Zipped asset packs cannot be edited, only directory based asset packs can be edited.\n\
+Paczki zasobów w archiwach skompresowanych nie mogą być edytowane. Można edytować tylko paczki zasobów znajdujące się w katalogach.\n\
 \n\
-You can override assets through a custom asset pack.
+Możesz nadpisać zasoby używając własnej paczki zasobów.
 
-assetEditor.inheritanceWarning.message = Warning: This asset has a Parent and inheritance is not yet supported in the property editor.
-assetEditor.inheritanceWarning.tooltip = This asset is inheriting properties from another asset (specified in the "Parent" property).\n\n\
-The property editor currently does not fully support inheritance and will only show you the properties defined in this asset. \n\n\
-Properties that use a value from the parent asset are marked with a *.
+assetEditor.inheritanceWarning.message = Ostrzeżenie: Ten zasób posiada Rodzica i dziedziczenie nie jest jeszcze wspierane w edytorze właściwości.
+assetEditor.inheritanceWarning.tooltip = Ten zasób dziedziczy właściwości z innego zasobu (podanego w właściwości "Rodzic")\n\n\
+Edytor właściwości nie wspiera jeszcze w pełni dziedziczenia i pokaże tylko właściwości zdefiniowane w tym zasobie.\n\n\
+Właściwości, które używają wartości od rodzica są oznaczone znakiem *.
 
-assetEditor.managePacksMenu.editPack = Edit Pack
-assetEditor.managePacksMenu.addPack = Add Pack
-assetEditor.managePacksMenu.removePack = Remove Pack
+assetEditor.managePacksMenu.editPack = Edytuj Paczkę
+assetEditor.managePacksMenu.addPack = Dodaj Paczkę
+assetEditor.managePacksMenu.removePack = Usuń Paczkę
 
-assetEditor.confirmationModal.typeToConfirm = Type "{value}" to confirm:
+assetEditor.confirmationModal.typeToConfirm = Wpisz "{value}" aby potwierdzić:
 
-assetEditor.deletePackModal.title = Delete Asset Pack?
-assetEditor.deletePackModal.text = Are you sure you want to delete the asset pack "{packId}"?\n\
+assetEditor.deletePackModal.title = Usunąć tę Paczkę Danych?
+assetEditor.deletePackModal.text = Czy jesteś pewien, że chcesz usunąć tę paczkę danych: "{packId}"?\n\
 \n\
-WARNING: This is a DANGEROUS operation!\n\
+Ostrzeżenie: To jest NIEBEZPIECZNA operacja!\n\
 \n\
-• All assets within this pack will be permanently deleted\n\
-• Deleting an asset pack at runtime can lead to unexpected behavior, crashes, or data corruption\n\
-• Any references to assets in this pack from other packs will become broken\n\
-• This action cannot be undone\n\
+• Wszystkie zasoby z tej paczki zostaną usunięte na stałe\n\
+• Usunięcie paczki zasobów podczas działania może doprowadzić do nieprzewidzianych zachowań, krytycznych błędów lub uszkodzenia danych\n\
+• Wszystkie odwołania z innych paczek do zasobów z tej paczki będą zepsute\n\
+• Ta operacja nie może być cofnięta\n\
 \n\
-Only proceed if you fully understand the consequences.
-assetEditor.deletePackModal.confirmButton = Delete Pack
+Kontynuuj tylko, gdy w pełni rozumiesz konsekwencje.
+assetEditor.deletePackModal.confirmButton = Usuń Paczkę
 
-assetEditor.newAssetButton.readOnlyPackTooltip = You cannot create new assets because the selected asset pack is read-only.
-# === auth ===
-auth.sessionExpired.title = Session Expired
-auth.sessionExpired.message = Your session could not be refreshed. You have been switched to offline mode.\n\nYou can continue playing, but you won't be able to join servers or start new worlds until you restart the game.
-# === bench ===
-bench.Furniture_Bench = Furniture Workbench
-bench.Builders = Builder's Workbench
-bench.Armor_Bench = Armorer's Workbench
-bench.Weapon_Bench = Blacksmith's Anvil
-bench.Workbench = Workbench
-bench.Farmingbench = Farmer's Workbench
-bench.Farmingbench_old = Farmer's Workbench (Old)
-bench.Cookingbench = Chef's Stove
-bench.Loombench = Loom
-bench.Armory = Forge
-bench.Fieldcraft = Fieldcraft
-bench.Arcanebench = Arcanist's Workbench
-bench.Alchemybench = Alchemist's Workbench
-bench.Template = Template
-bench.ArmorBench = Armorer's Workbench
-bench.Architectsbench = Architect's Workbench
-bench.Fieldcraft_Old = Fieldcraft (Old)
+assetEditor.newAssetButton.readOnlyPackTooltip = Nie możesz utworzyć nowego zasobu, ponieważ wybrana paczka zasobów jest tylko do odczytu.
+# === auth / autoryzacja ===
+auth.sessionExpired.title = Sesja Wygasła
+auth.sessionExpired.message = Twoja sesja nie mogła być odświeżona. Zostałeś przeniesiony do trybu offline.\n\nMożesz dalej grać, ale nie będziesz mógł dołączyć na żaden serwer lub tworzyć nowych światów póki nie uruchomisz ponownie gry.
+# === bench / Stoły Rzemieślnicze===
+bench.Furniture_Bench = Stół Stolarza
+bench.Builders = Stół Budowniczego
+bench.Armor_Bench = Stół Płatnerza
+bench.Weapon_Bench = Stół Kowala
+bench.Workbench = Stół Rzemieślniczy
+bench.Farmingbench = Stół Farmera
+bench.Farmingbench_old = Stół Farmera (Stary)
+bench.Cookingbench = Kuchenka Szefa
+bench.Loombench = Krosno
+bench.Armory = Kuźnia
+bench.Fieldcraft = Stół do Rzemiosła Polowego
+bench.Arcanebench = Stół Arkanisty
+bench.Alchemybench = Stół Alchemisty
+bench.Template = Wzorzec
+bench.ArmorBench = Stół Płatnerza
+bench.Architectsbench = Stół Architekta
+bench.Fieldcraft_Old = Stół do Rzemiosła Polowego (Stary)
 
-# === benchCategories ===
-benchCategories.Furniture_Beds = Beds
-benchCategories.Furniture_Misc = Misc
-benchCategories.Furniture_Gothic = Gothic
-benchCategories.Furniture_Lighting = Lighting
-benchCategories.Furniture_Pottery = Pottery
-benchCategories.Furniture_Textiles = Textiles
-benchCategories.Furniture_Storage = Storage
-benchCategories.Furniture_Statues = Statues
-benchCategories.Furniture_Seasonal = Seasonal
-benchCategories.Stairs = Stairs
-benchCategories.Ornate = Ornate
-benchCategories.Sign = Sign
-benchCategories.Roof = Roof
-benchCategories.Decorative = Decorative
-benchCategories.Wardrobe = Wardrobe
-benchCategories.Wall = Wall
-benchCategories.Pillar = Pillar
-benchCategories.Shelf = Shelf
-benchCategories.Bricks = Bricks
-benchCategories.Trapdoor = Trapdoor
-benchCategories.Gate = Gate
-benchCategories.Smooth = Smooth
-benchCategories.Structural-Rock = Structural Rock
-benchCategories.Platform = Platform
-benchCategories.Window = Window
-benchCategories.Beam = Beam
-benchCategories.SmoothHalfSlab = Smooth Half Slab
-benchCategories.HalfSlab = Half Slab
-benchCategories.Table = Table
-benchCategories.Stool = Stool
-benchCategories.Chair = Chair
-benchCategories.Door = Door
-benchCategories.Ladder = Ladder
-benchCategories.Armor_Hands = Hands
-benchCategories.Armor_Legs = Legs
-benchCategories.Armor_Head = Head
-benchCategories.Armor_Chest = Chest
-benchCategories.Weapon_Shield = Shield
-benchCategories.Weapon_Daggers = Daggers
-benchCategories.Weapon_Sword = Sword
-benchCategories.Weapon_Bow = Bow
-benchCategories.Weapon_Club = Club
-benchCategories.Weapon_Axe = Axe
-benchCategories.Weapon_Mace = Mace
-benchCategories.Weapon_Battleaxe = Battleaxe
-benchCategories.Weapon_Longsword = Longsword
-benchCategories.Workbench_Tools = Tools
-benchCategories.Workbench_Weapons = Weapons
-benchCategories.Workbench_Tinkering = Tinkering
-benchCategories.Workbench_Crafting = Crafting
-benchCategories.Workbench_Farming = Farming
-benchCategories.Seeds = Seeds
-benchCategories.Other = Other
-benchCategories.Saplings = Saplings
-benchCategories.All = All
-benchCategories.Prepared = Prepared
-benchCategories.Baked = Baked
-benchCategories.Weapons = Weapons
-benchCategories.Tools = Tools
-benchCategories.Arcane_Misc = Misc
-benchCategories.Arcane_Portals = Portals
-benchCategories.Alchemy_Potions = Potions
-benchCategories.Alchemy_Bombs = Bombs
-benchCategories.Template = Template
+# === benchCategories / Kategorie rzemiosła ===
+benchCategories.Furniture_Beds = Łóżka
+benchCategories.Furniture_Misc = Różne
+benchCategories.Furniture_Gothic = Gotyczne
+benchCategories.Furniture_Lighting = Oświetlenie
+benchCategories.Furniture_Pottery = Ceramika
+benchCategories.Furniture_Textiles = Tekstylia
+benchCategories.Furniture_Storage = Schowki
+benchCategories.Furniture_Statues = Statuy
+benchCategories.Furniture_Seasonal = Sezonowe
+benchCategories.Stairs = Schody
+benchCategories.Ornate = Ozdobne
+benchCategories.Sign = Znaki
+benchCategories.Roof = Dachy
+benchCategories.Decorative = Dekoracyjne
+benchCategories.Wardrobe = Szafy
+benchCategories.Wall = Ściany
+benchCategories.Pillar = Kolumny
+benchCategories.Shelf = Półki
+benchCategories.Bricks = Cegły
+benchCategories.Trapdoor = Zapadnie
+benchCategories.Gate = Bramy
+benchCategories.Smooth = Gładkie
+benchCategories.Structural-Rock = Kamienie Strukturalne
+benchCategories.Platform = Platformy
+benchCategories.Window = Okna
+benchCategories.Beam = Podpory
+benchCategories.SmoothHalfSlab = Gładkie Pół Bloki
+benchCategories.HalfSlab = Pół Bloki
+benchCategories.Table = Stoły
+benchCategories.Stool = Stołki
+benchCategories.Chair = Krzesła
+benchCategories.Door = Drzwi
+benchCategories.Ladder = Drabiny
+benchCategories.Armor_Hands = Ręce
+benchCategories.Armor_Legs = Nogi
+benchCategories.Armor_Head = Głowa
+benchCategories.Armor_Chest = Klatka piersiowa
+benchCategories.Weapon_Shield = Tarcze
+benchCategories.Weapon_Daggers = Sztylety
+benchCategories.Weapon_Sword = Miecze
+benchCategories.Weapon_Bow = Łuki
+benchCategories.Weapon_Club = Pałki
+benchCategories.Weapon_Axe = Topory
+benchCategories.Weapon_Mace = Buławy
+benchCategories.Weapon_Battleaxe = Topory Wojenne
+benchCategories.Weapon_Longsword = Długie miecze
+benchCategories.Workbench_Tools = Narzędzia
+benchCategories.Workbench_Weapons = Bronie
+benchCategories.Workbench_Tinkering = Majsterkowanie
+benchCategories.Workbench_Crafting = Wytwarzanie
+benchCategories.Workbench_Farming = Uprawianie
+benchCategories.Seeds = Nasiona
+benchCategories.Other = Inne
+benchCategories.Saplings = Sadzonki
+benchCategories.All = Wszystkie
+benchCategories.Prepared = Przygotowane
+benchCategories.Baked = Upieczone
+benchCategories.Weapons = Bronie
+benchCategories.Tools = Narzędzia
+benchCategories.Arcane_Misc = Różne
+benchCategories.Arcane_Portals = Portale
+benchCategories.Alchemy_Potions = Mikstury
+benchCategories.Alchemy_Bombs = Bomby
+benchCategories.Template = Wzorce
 # === builderTools ===
-builderTools.name = Builder Tools
-builderTools.selectTool = Select Tool
-builderTools.useTool = Use Tool
-builderTools.canNotUse = Can't use builder tools outside of Creative mode!
+builderTools.name = Narzędzia Budowniczego
+builderTools.selectTool = Narzędzie Zaznaczania
+builderTools.useTool = Narzędzie Używania
+builderTools.canNotUse = Nie możesz używać narzędzi budowniczego w innym trybie niż Kreatywny!
 
-builderTools.selectATool = Left-click a builder tool in your inventory or hotbar to configure it.
-builderTools.noToolSettings = This tool doesn't require configuration.
+builderTools.selectATool = Użyj lewego przycisku myszy na narzędziu budowniczego w ekwipunku lub hotbarze aby je skonfigurować.
+builderTools.noToolSettings = To narzędzie nie wymaga konfiguracji.
 
-builderTools.favorites.nameTitle = Tool Favorite Name
-builderTools.favorites.nameDescription = Please enter a name for this favorite tool
+builderTools.favorites.nameTitle = Nazwa Ulubionego Narzędzia
+builderTools.favorites.nameDescription = Wpisz tutaj nazwę dla tego ulubionego narzędzia
 
-builderTools.settings.ToolReachDistance.name = Tool Reach Distance
-builderTools.settings.ToolReachDistance.description = Specifies the max (or locked) reach distance to use for tools
-builderTools.settings.ToolDelayMin.name = Tool Delay Min
-builderTools.settings.ToolDelayMin.description = Specifies the min delay (in ms) allowed between each tool use
-builderTools.settings.EnableBrushShapeRendering.name = Brush Shape Rendering
-builderTools.settings.EnableBrushShapeRendering.description = Toggles the brush rendering between block shape and standard wireframe
-builderTools.settings.BrushOpacity.name = Brush Opacity
-builderTools.settings.BrushOpacity.description = Controls the opacity of the rendered brush tools
-builderTools.settings.SelectionOpacity.name = Selection Opacity
-builderTools.settings.SelectionOpacity.description = Controls the opacity of the rendered selection tool
-builderTools.settings.SelectionPanelOpacity.name = Selection Panel Opacity
-builderTools.settings.SelectionPanelOpacity.description = Controls the opacity of the draggable selection tool panels
-builderTools.settings.FlightInertia.name = Flight Inertia
-builderTools.settings.FlightInertia.description = Adds momentum and gradual deceleration to creative flight (0 = instant stop, 100 = maximum drift)
-builderTools.settings.FlightMode.name = Flight Mode
-builderTools.settings.FlightMode.description = Choose between hovering in place or flying toward camera direction
-builderTools.settings.DisplayLegend.name = Display Legend
-builderTools.settings.DisplayLegend.description = Shows or hides the builder tools legend panel with control hints
+builderTools.settings.ToolReachDistance.name = Odległości Interakcji Narzędzi
+builderTools.settings.ToolReachDistance.description = Ustala maksymalny (lub stały) dystans interakcji dla narzędzi
+builderTools.settings.ToolDelayMin.name = Minimalne Opóźnienie Narzędzi
+builderTools.settings.ToolDelayMin.description = Ustala minimalne opóźnienie (w ms) między dozwolonymi użyciami narzędzi
+builderTools.settings.EnableBrushShapeRendering.name = Renderowanie Pędzla
+builderTools.settings.EnableBrushShapeRendering.description = Przełącza renderowanie pędzla pomiędzy kształtem blokowym, a standardową siatką poligonów
+builderTools.settings.BrushOpacity.name = Przezroczystość Pędzla
+builderTools.settings.BrushOpacity.description = Kontroluje przezroczystość renderowanego pędzla
+builderTools.settings.SelectionOpacity.name = Przezroczystość Zaznaczenia
+builderTools.settings.SelectionOpacity.description = Kontroluje przezroczystość renderowanego zaznaczenia
+builderTools.settings.SelectionPanelOpacity.name = Przezroczystość Panelu Zaznaczania
+builderTools.settings.SelectionPanelOpacity.description = Kontroluje przezroczystość ruchomego panelu narzędzia zaznaczania
+builderTools.settings.FlightInertia.name = Moment Bezwładności Podczas Lotu
+builderTools.settings.FlightInertia.description = Dodaje płynne przyspieszanie i moment bezwładności podczas latania w trybie kreatywnym (0 = natychmiastowe zatrzymanie, 100 = maksymalny drift)
+builderTools.settings.FlightMode.name = Tryb Lotu
+builderTools.settings.FlightMode.description = Wybierz pomiędzy lewitowaniem w miejscu, lub lotem w kierunku kamery.
+builderTools.settings.DisplayLegend.name = Pokaż Legendę
+builderTools.settings.DisplayLegend.description = Przełącza widoczność legendy sterowania dla narzędzi budowniczego
 builderTools.settings.NoClip.name = No Clip
-builderTools.settings.NoClip.description = Disables collision detection when flying, allowing you to pass through blocks
-builderTools.settings.AirPlacement.name = Air Placement
-builderTools.settings.AirPlacement.description = Allows placing blocks in air at range without requiring support
-builderTools.settings.AllowNPCDetection.name = Allow NPC Detection
-builderTools.settings.AllowNPCDetection.description = When enabled, NPCs can detect and react to you while in Creative mode
-builderTools.settings.RespondToHit.name = Respond To Hit
-builderTools.settings.RespondToHit.description = When enabled, you can receive knockback and other hit effects while invincible in Creative mode
-builderTools.settings.BrushShapeRendering.name = Brush Block Rendering
-builderTools.settings.BrushShapeRendering.description = Toggles the brush preview render between wireframe and block style
-builderTools.settings.FlightSpeedMultiplier.description = Adjust flight and movement speed
-builderTools.settings.BrushSoundsEnabled.description = Enable or disable sound effects when using brush tools
-builderTools.settings.BrushSoundVolume.description = Adjust the volume of brush tool sound effects
-builderTools.settings.HideHud.description = Hide all HUD elements
-builderTools.settings.HideHotbar.description = Hide the hotbar while in Creative mode
-builderTools.settings.HideCompass.description = Hide the compass while in Creative mode
-builderTools.settings.HideNotifications.description = Hide notifications while in Creative mode
-builderTools.settings.HideChat.description = Hide the chat window while in Creative mode
-builderTools.settings.HideHeldItem.description = Hide the item in your hand while in Creative mode
-builderTools.settings.ShowEntityMarkers.description = Show entity markers while in Creative mode
-builderTools.settings.Fullbright.description = Enable fullbright mode, making all blocks fully lit regardless of light level
+builderTools.settings.NoClip.description = Wyłącza kolizje podczas lotu, pozwalając na przenikanie przez bloki.
+builderTools.settings.AirPlacement.name = Stawianie w Powietrzu
+builderTools.settings.AirPlacement.description = Pozwala stawiać bloku w powietrzu bez żadnych podpór
+builderTools.settings.AllowNPCDetection.name = Zezwól na Detekcję Przez NPC
+builderTools.settings.AllowNPCDetection.description = Kiedy zaznaczone, NPC-ty będą mogły cię wykryć i na ciebie reagować kiedy jesteś w trybie Kreatywnym
+builderTools.settings.RespondToHit.name = Reaguj na Uderzenia
+builderTools.settings.RespondToHit.description = Kiedy zaznaczone, będziesz otrzymywał odrzut i inne efekty uderzenia gdy jesteś nietykalny w trybie Kreatywnym
+builderTools.settings.BrushShapeRendering.name = Renderowanie Bloków Pędzla
+builderTools.settings.BrushShapeRendering.description = Przełącza pomiędzy renderowaniem siatki poligonów, a renderowaniem bloków.
+builderTools.settings.FlightSpeedMultiplier.description = Dostosuj prędkość lotu i chodzenia
+builderTools.settings.BrushSoundsEnabled.description = Włącz lub wyłącz efekty dźwiękowe podczas malowania pędzlem
+builderTools.settings.BrushSoundVolume.description = Dostosuj głośność efektów dźwiękowych pędzla
+builderTools.settings.HideHud.description = Ukryj wszystkie elementy HUD
+builderTools.settings.HideHotbar.description = Ukryj hotbar, kiedy jesteś w trybie Kreatywnym
+builderTools.settings.HideCompass.description = Ukryj kompas, kiedy jesteś w trybie Kreatywnym
+builderTools.settings.HideNotifications.description = Ukryj powiadomienia, kiedy jesteś w trybie Kreatywnym
+builderTools.settings.HideChat.description = Ukryj okno czatu, kiedy jesteś w trybie Kreatywnym
+builderTools.settings.HideHeldItem.description = Ukryj przedmiot w ręce, kiedy jesteś w trybie Kreatywnym
+builderTools.settings.ShowEntityMarkers.description = Pokaż znaczniki bytów, kiedy jesteś w trybie Kreatywnym
+builderTools.settings.Fullbright.description = Włącz fullbright, sprawiając, że wszystkie bloki będą w pełni oświetlone niezależnie od poziomu światła
 
-builderTools.panel.settings = Settings
-builderTools.panel.brushes = Brushes
-builderTools.panel.brushSettings = Brushes
-builderTools.panel.generalSettings = General Settings
-builderTools.panel.maskSettings = Mask Settings
-builderTools.panel.quickSettings = Settings
-builderTools.quickSettings.title = Creative Mode Quick Settings
-builderTools.panel.clearSelection = Clear selection
-builderTools.panel.enableEmptyFilter = Enable 'Empty' filter
-builderTools.panel.invertEntireMask = Invert entire mask
-builderTools.panel.useCustomMaskCommandEntry = Use custom mask command entry
+builderTools.panel.settings = Ustawienia
+builderTools.panel.brushes = Pędzle
+builderTools.panel.brushSettings = Pędzle
+builderTools.panel.generalSettings = Ustawienia Ogólne
+builderTools.panel.maskSettings = Ustawienia Maski
+builderTools.panel.quickSettings = Ustawienia
+builderTools.quickSettings.title = Szybkie Ustawienia Trybu Kreatywnego
+builderTools.panel.clearSelection = Wyczyść Zaznaczenie
+builderTools.panel.enableEmptyFilter = Włącz 'Pusty' filtr
+builderTools.panel.invertEntireMask = Odwróć całą maskę
+builderTools.panel.useCustomMaskCommandEntry = Użyj własnego wpisu polecenia maski
 
-builderTools.replace.materialsToReplace = [TMP] Materials to be replaced:
-builderTools.replace.replaceWith = [TMP] Replace with:
+builderTools.replace.materialsToReplace = [TMP] Materiały, które mają być zastąpione:
+builderTools.replace.replaceWith = [TMP] Zastąp:
 
-builderTools.legend.title = Legend
-builderTools.legend.pickMaterial = Pick material
-builderTools.legend.setMask = Set as mask
-builderTools.legend.addMask = Add to mask
-builderTools.legend.changeHeight = Change height of shape
-builderTools.legend.changeWidth = Change width of shape
-builderTools.legend.favoriteMaterials = Favorite materials
-builderTools.legend.selectedMaterial = Selected material
-builderTools.legend.shiftFasterChange = Hold Shift for faster changes
-builderTools.legend.undo = Undo
-builderTools.legend.redo = Redo
-builderTools.legend.addRemoveFavorite = Add/remove favorite material
+builderTools.legend.title = Legenda
+builderTools.legend.pickMaterial = Wybierz materiał
+builderTools.legend.setMask = Ustaw jako maskę
+builderTools.legend.addMask = Dodaj do maski
+builderTools.legend.changeHeight = Zmień wysokość lub kształt
+builderTools.legend.changeWidth = Zmień szerokość lub kształt
+builderTools.legend.favoriteMaterials = Ulubione materiały
+builderTools.legend.selectedMaterial = Wybrany materiał
+builderTools.legend.shiftFasterChange = Przytrzymaj Shift aby zwiększyć prędkość zmian
+builderTools.legend.undo = Cofnij
+builderTools.legend.redo = Ponów
+builderTools.legend.addRemoveFavorite = Dodaj/Usuń ulubiony materiał
 builderTools.legend.alt = Alt +
 builderTools.legend.shiftalt = Shift + Alt +
 builderTools.legend.shift = Shift +
 
-builderTools.legend.PaintBrush.Page1.Title = Basic Brushes
-builderTools.legend.PaintBrush.Page1.Description = The Paintbrush Tool allows you to place and remove blocks in different shapes, sizes, and materials
-builderTools.legend.PaintBrush.Page1.DestroyBlocks = Destroy blocks where you're aiming
+builderTools.legend.PaintBrush.Page1.Title = Podstawowe Pędzle
+builderTools.legend.PaintBrush.Page1.Description = Narzędzia Pędzla pozwala ci stawiać i niszczyć bloki w różnych kształtach, wielkościach i o różnych materiałach
+builderTools.legend.PaintBrush.Page1.DestroyBlocks = Usuń bloki w miejscu, w które celujesz
 builderTools.legend.PaintBrush.Page1.PlaceBlocks = Place blocks where you're aiming, according to the material you've set
-builderTools.legend.PaintBrush.Page1.SelectTargetMaterial = Select targeted material
-builderTools.legend.PaintBrush.Page1.AddTargetMaterial = Add targeted material as multi-material
-builderTools.legend.PaintBrush.Page1.UndoLastBrush = Undo last brush action
-builderTools.legend.PaintBrush.Page1.RedoLastUndo = Redo last undone action
-builderTools.legend.PaintBrush.Page1.EditInventoryProperties = Edit materials, size, shape, and other properties from the inventory
-builderTools.legend.PaintBrush.Page1.AirPlacementTitle = Air Placement
-builderTools.legend.PaintBrush.Page1.AirPlacementHotkey = Toggle Air Placement targeting mode
-builderTools.legend.PaintBrush.Page1.AirPlacementDistanceChange = Change distance of air placement
-builderTools.legend.PaintBrush.Page2.Title = Axis Lock & Masking
-builderTools.legend.PaintBrush.Page2.AxisLock = Axis Lock
-builderTools.legend.PaintBrush.Page2.AxisLockDescription = Allows you to stick the brush to a flat, moveable, rotateable surface. The following hotkeys allow you to show, edit, and exit the surface mode.
-builderTools.legend.PaintBrush.Page2.ShowSurfaceMoveTool = Show Surface Move Tool
-builderTools.legend.PaintBrush.Page2.ShowSurfaceRotationTool = Show Surface Rotation Tool
-builderTools.legend.PaintBrush.Page2.UseBrush = Use Brush
-builderTools.legend.PaintBrush.Page2.ExitAxisLockMode = Exit Axis Lock mode
-builderTools.legend.PaintBrush.Page2.BlockMasking = Block Masking
-builderTools.legend.PaintBrush.Page2.BlockMaskingDescription = Allows you to set materials to the brush that limit changes to blocks that match those materials
-builderTools.legend.PaintBrush.Page2.BrushMenuMaskingTab = Brush Menu Masking Tab
-builderTools.legend.PaintBrush.Page2.MaskConfigDescription = Click the pencil icon in the top right to swap to the 'Mask Config' panel. There you can create more complex masks using items from the inventory. Hover over terms in the UI panel for more information.
-builderTools.legend.PaintBrush.Page3.Title = Scriptable Brushes / Air Placement
-builderTools.legend.PaintBrush.Page3.Description = Scriptable Brushes\n\
-You can create custom block placement logic using commands and assets like "River Brush", "Mountain Brush", and any other brush you can imagine!
-builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = To create your own brushes, take a look at the samples provided in the Assets/MacroCommands/Brushes/ directory in the assets. You can use the in-game /help command to learn more about every available brush config operation. You'll also need to create a Paint Brush item; look in the Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ directory for examples of these items.
-builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Testing Development Brushes
-builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Use '/sb load' to open a UI and browse all available scripted brushes, or '/sb load <name>' to load a specific brush directly. This lets you test brushes without needing to create an item first. Use '/sb clear' to disable when done.
+builderTools.legend.PaintBrush.Page1.SelectTargetMaterial = Wybierz materiał docelowy
+builderTools.legend.PaintBrush.Page1.AddTargetMaterial = Dodaj do materiałów docelowych
+builderTools.legend.PaintBrush.Page1.UndoLastBrush = Cofnij ostatnią akcję pędzla
+builderTools.legend.PaintBrush.Page1.RedoLastUndo = Ponów cofniętą akcję pędzla
+builderTools.legend.PaintBrush.Page1.EditInventoryProperties = Edytuj materiały, wielkość, kształt i inne właściwości z ekwipunku
+builderTools.legend.PaintBrush.Page1.AirPlacementTitle = Umieszczanie w Powietrzu
+builderTools.legend.PaintBrush.Page1.AirPlacementHotkey = Przełącza możliwość umieszczania w powietrzu
+builderTools.legend.PaintBrush.Page1.AirPlacementDistanceChange = Zmień dystans umieszczania w powietrzu
+builderTools.legend.PaintBrush.Page2.Title = Blokada Osi i Maskowanie
+builderTools.legend.PaintBrush.Page2.AxisLock = Blokada Osi
+builderTools.legend.PaintBrush.Page2.AxisLockDescription = Pozwala "przykleić" pędzel do płaskiej, ruchomej, obracalnej powierzchni. Podany klawisz pozwala ci pokazać, edytować i wyjść z trybu powierzchni.
+builderTools.legend.PaintBrush.Page2.ShowSurfaceMoveTool = Pokaż Narzędzie Przenoszenia Powierzchni
+builderTools.legend.PaintBrush.Page2.ShowSurfaceRotationTool = Pokaż Narzędzie Obracania Powierzchni
+builderTools.legend.PaintBrush.Page2.UseBrush = Użyj Pędzla
+builderTools.legend.PaintBrush.Page2.ExitAxisLockMode = Wyjdź z Trybu Zablokowanej Osi
+builderTools.legend.PaintBrush.Page2.BlockMasking = Maskowanie Bloków
+builderTools.legend.PaintBrush.Page2.BlockMaskingDescription = Pozwala ustawić materiały które będą objęte działaniem pędzla
+builderTools.legend.PaintBrush.Page2.BrushMenuMaskingTab = Zakładka Maski Pędzla
+builderTools.legend.PaintBrush.Page2.MaskConfigDescription = Kliknij ikonę ołówka w prawym górnym rogu aby przełączyć się do panelu 'Konfiguracji Maski'. Ten panel pozwala tworzyć bardziej zaawansowane paski używając przedmiotów z twojego ekwipunku. Najedź na nazwy w panelu, aby uzyskać więcej informacji.
+builderTools.legend.PaintBrush.Page3.Title = Oskryptowane Pędzle / Umieszczanie w Powietrzu
+builderTools.legend.PaintBrush.Page3.Description = Oskryptowane Pędzle\n\
+Możesz tworzyć własną logikę stawiania bloków używając komend i zasobów takich jak "Pędzel Rzek", "Pędzel Gór" i jakiekolwiek inne pędzle które wymyślisz!
+builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Aby stworzyć własny pędzel, spójrz na istniejące przykłady w katalogu zasobów: Assets/MacroCommands/Brushes/. Możesz używać komendy /help aby dowiedzieć się więcej o każdej dostępnej operacji konfiguracji pędzla. Będziesz musiał również utworzyć przedmiot Pędzla; sprawdź katalog Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ aby znaleźć przykłady takich przedmiotów.
+builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Testowanie Pędzli
+builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Użyj komendy '/sb load' aby otworzyć panel i przeglądać wszystkie dostępne pędzle, lub '/sb load <name>' aby załadować konkretny pędzel. Pozwoli ci to na testowanie pędzli bez konieczności tworzenia przedmiotu. Użyj '/sb clear' aby wyłączyć pędzel gdy skończysz.
 
-builderTools.legend.LineBrush.Page1.Title = Line Brush
-builderTools.legend.LineBrush.Page1.Description = Allows you to build straight lines of blocks
-builderTools.legend.LineBrush.Page1.StartOrAddPoint = Start or add point to the line
-builderTools.legend.LineBrush.Page1.CancelLine = Cancel Line
-builderTools.legend.LineBrush.Page1.SnapToAngles = Hold to enable snapping to different 45° angles
-builderTools.legend.LineBrush.Page1.EditInventoryProperties = Edit materials, size, and other properties from the inventory
+builderTools.legend.LineBrush.Page1.Title = Pędzel Liniowy
+builderTools.legend.LineBrush.Page1.Description = Pozwala budować proste linie z bloków
+builderTools.legend.LineBrush.Page1.StartOrAddPoint = Zacznij lub dodaj punkt do lini
+builderTools.legend.LineBrush.Page1.CancelLine = Anuluj Linię
+builderTools.legend.LineBrush.Page1.SnapToAngles = Przytrzymaj, aby przyciągać linię do kątów podzielnych przez 45
+builderTools.legend.LineBrush.Page1.EditInventoryProperties = Edytuj materiały, rozmiar i inne właściwości z poziomu ekwipunku
 
-builderTools.legend.MachinimaTool.Page1.Title = Getting Started
-builderTools.legend.MachinimaTool.Page1.Description = Create keyframed animations using actors, cameras, particles, sounds, and more! Perfect for cinematics and cutscenes.
-builderTools.legend.MachinimaTool.Page1.OpensMenu = Open Machinima Editor UI
-builderTools.legend.MachinimaTool.Page1.BaseCommand = Base command for all machinima operations
-builderTools.legend.MachinimaTool.Page1.Scenes = Scenes\n\
-A Scene is a container for your machinima. It stores all actors, keyframes, and settings.
-builderTools.legend.MachinimaTool.Page1.CreatingFirstScene = Creating your first Scene\n\
-1. Find a nice spot for your machinima\n\
-2. Open the Machinima Menu\n\
-3. Click the + icon to create a new Scene\n\
-4. Add your first Actor!
-builderTools.legend.MachinimaTool.Page1.Actors = Actors\n\
-An Actor is a keyframe-animatable object. See the next page for actor types.
-builderTools.legend.MachinimaTool.Page1.AddingCameraActor = Adding a Camera Actor\n\
-1. Position yourself where you want the camera\n\
-2. Open the Machinima Menu\n\
-3. Click the + icon under the scene list\n\
-4. Select "Camera" from the dropdown\n\
-5. You can now click on the camera to reposition it, and press C to toggle the camera view!
+builderTools.legend.MachinimaTool.Page1.Title = Jak Zacząć?
+builderTools.legend.MachinimaTool.Page1.Description = Twórz znacznikową animację używając aktorów, kamer, cząstek, dźwięków i więcej! Idealne do tworzenia cinematików i cutscenek.
+builderTools.legend.MachinimaTool.Page1.OpensMenu = Otwórz UI Edytora Machinima
+builderTools.legend.MachinimaTool.Page1.BaseCommand = Bazowa komenda dla wszystkich operacji Machinima
+builderTools.legend.MachinimaTool.Page1.Scenes = Sceny\n\
+Scena jest kontenerem dla twojego Machinima. Zawiera on wszystkich aktorów, znaczniki i ustawienia.
+builderTools.legend.MachinimaTool.Page1.CreatingFirstScene = Tworzenie pierwszej Sceny\n\
+1. Znajdź fajne miejsce dla twojego Machinima\n\
+2. Otwórz menu Machinimy\n\
+3. Kliknij ikonę + any stworzyć nową Scenę\n\
+4. Dodaj swojego pierwszego Aktora!
+builderTools.legend.MachinimaTool.Page1.Actors = Aktorzy\n\
+Aktor jest znacznikowo-animowanym obiektem. Sprawdź następną stronę, aby poznać typy aktorów.
+builderTools.legend.MachinimaTool.Page1.AddingCameraActor = Dodawanie Kamery\n\
+1. Stań w pozycji i obróć się w kierunku w którym ma patrzeć Kamera\n\
+2. Otwórz menu Machinimy\n\
+3. Kliknij ikonę + pod listę sceny\n\
+4. Wybierz "Kamera" z rozwijanej listy\n\
+5. Możesz teraz kliknąć kamerę aby zmienić jej pozycję i kliknąć 'C' aby przełączyć na widok z kamery!
 
 builderTools.legend.MachinimaTool.Page2.Title = Actor Types
 builderTools.legend.MachinimaTool.Page2.Description = Different actor types serve different purposes in your machinima. They're all animateable objects that allow you to control position, rotation, and other values. Actors are added via the Machinima Menu
