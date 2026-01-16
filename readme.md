@@ -1,5 +1,8 @@
 # Hytale Polish Translation
 This project aims to translate the Hytale game to polish language.
+I try to keep the translation true to the original, but I will be making some creative decisions if I have to. 
+For example words that can't be translated straight forward will be replaced by words with similar meaning.
+I won't be translating any unique names, like dimension or race names that does not exist in real world.
 
 ## Progress
 - Client - ![](https://geps.dev/progress/15) 340 / 2261 lines
@@ -26,4 +29,21 @@ This project aims to translate the Hytale game to polish language.
 	- Tags - ![](https://geps.dev/progress/0) 0 / 15 lines
 	- Under tops - ![](https://geps.dev/progress/0) 0 / 43 lines
 	- Underwear - ![](https://geps.dev/progress/0) 0 / 4 lines
-	- Variants - ![](https://geps.dev/progress/0) 0 / 34 lines1
+	- Variants - ![](https://geps.dev/progress/0) 0 / 34 lines
+
+## Milestones
+You can expect a release after each of this milestones:
+[ ] - Finish translation of the Game Client (Expected by Jan 31st)
+[ ] - Finish translation of the Game Server (Expected by Feb 28th)
+[ ] - Finish translation of the Cosmetics (Expected by Mar 15th)
+
+## License
+This project is not under any license. Terms below might change in the future. Here's what you can and can't do:
+### You can:
+- Download and use this project
+- Modify it for your own use
+- Include it in your modpacks on platforms that this translation is uploaded to (It will be released on CurseForge and possibly other platforms)
+- Contribute by opening an Issue on GitHub
+### You can't:
+- Modify it to claim it as your own
+- Redistribute it on your own
