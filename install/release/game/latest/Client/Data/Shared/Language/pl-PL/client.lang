@@ -598,55 +598,55 @@ builderTools.legend.MachinimaTool.Page1.AddingCameraActor = Dodawanie Kamery\n\
 4. Wybierz "Kamera" z rozwijanej listy\n\
 5. Możesz teraz kliknąć kamerę aby zmienić jej pozycję i kliknąć 'C' aby przełączyć na widok z kamery!
 
-builderTools.legend.MachinimaTool.Page2.Title = Actor Types
-builderTools.legend.MachinimaTool.Page2.Description = Different actor types serve different purposes in your machinima. They're all animateable objects that allow you to control position, rotation, and other values. Actors are added via the Machinima Menu
-builderTools.legend.MachinimaTool.Page2.CameraHeader = Camera
-builderTools.legend.MachinimaTool.Page2.CameraDesc = Allows you to move a camera across paths and animate various settings such as FOV and Speed.
+builderTools.legend.MachinimaTool.Page2.Title = Typy Aktorów
+builderTools.legend.MachinimaTool.Page2.Description = Różne typy aktorów w systemie Machinima służą do innych celów. Łączy je to, że wszystkie są animowalnymi obiektami którym można zmieniać pozycję, rotację i inne właściwości. Aktorzy są dodawani za pomocą Menu Machinimy.
+builderTools.legend.MachinimaTool.Page2.CameraHeader = Kamera (camera)
+builderTools.legend.MachinimaTool.Page2.CameraDesc = Pozwala na poruszanie kamery wzdłuż ścieżki i dostosowywanie takich parametrów jak FOV i prędkość.
 builderTools.legend.MachinimaTool.Page2.EntityHeader = Entity
-builderTools.legend.MachinimaTool.Page2.EntityDesc = Animated characters with models. Supports body/head rotation and animation events.
-builderTools.legend.MachinimaTool.Page2.PlayerHeader = Player
-builderTools.legend.MachinimaTool.Page2.PlayerDesc = Similar to Entity, references the local player.
-builderTools.legend.MachinimaTool.Page2.ReferenceHeader = Reference
-builderTools.legend.MachinimaTool.Page2.ReferenceDesc = Invisible marker points. Useful for targeting and reference positions. Allows you to set camera targets to track the points.
-builderTools.legend.MachinimaTool.Page2.ItemHeader = Item
-builderTools.legend.MachinimaTool.Page2.ItemDesc = Displays items in the world. Can be positioned and animated.
-builderTools.legend.MachinimaTool.Page2.AddActorCommand = Command: .mach actor add [type] [name]\n\
-Types: camera, entity, player, ref, item
+builderTools.legend.MachinimaTool.Page2.EntityDesc = Animowana postać z własnym modelem. Wspiera rotację ciała i głowy oraz wydarzenia animacyjne.
+builderTools.legend.MachinimaTool.Page2.PlayerHeader = Gracz (player)
+builderTools.legend.MachinimaTool.Page2.PlayerDesc = Podobny do Entity, ale odnoszący się do lokalnego gracza.
+builderTools.legend.MachinimaTool.Page2.ReferenceHeader = Odniesienie (ref)
+builderTools.legend.MachinimaTool.Page2.ReferenceDesc = Niewidzialny znak (punkt). Przydatny jako punkt odniesienia i cel. Pozwala ustawić kamerę w sposób śledzący te punkty.
+builderTools.legend.MachinimaTool.Page2.ItemHeader = Przedmiot (item)
+builderTools.legend.MachinimaTool.Page2.ItemDesc = Umieszcza przedmiot w świecie, który można animować i zmieniać mu pozycję.
+builderTools.legend.MachinimaTool.Page2.AddActorCommand = Komenda: .mach actor add [typ] [nazwa]\n\
+Typy: camera, entity, player, ref, item
 
-builderTools.legend.MachinimaTool.Page3.Title = Playback Controls
-builderTools.legend.MachinimaTool.Page3.Description = Playback controls let you preview your scene by animating all actors along their keyframe paths. Use these to scrub through time, jump between keyframes, and test your animations. Every frame will update all the actors along their keyframe paths, running the animations.
-builderTools.legend.MachinimaTool.Page3.TogglePause = Toggle Play / Pause
-builderTools.legend.MachinimaTool.Page3.ContinuousPlayback = Toggle Continuous Playback (loops)
-builderTools.legend.MachinimaTool.Page3.AutoRestart = Toggle Auto-Restart on scene end
-builderTools.legend.MachinimaTool.Page3.RestartScene = Restart Scene from beginning
-builderTools.legend.MachinimaTool.Page3.EndScene = Skip to final frame
-builderTools.legend.MachinimaTool.Page3.NavigationTitle = Frame Navigation:
-builderTools.legend.MachinimaTool.Page3.FrameScrub = Scrub through frames (hold for continuous)
-builderTools.legend.MachinimaTool.Page3.JumpKeyframe = Jump to previous / next keyframe point
-builderTools.legend.MachinimaTool.Page3.SpeedModifiers = Hold SHIFT for 2x speed, ALT for 0.5x speed
+builderTools.legend.MachinimaTool.Page3.Title = Kontrolowanie Odtwarzania
+builderTools.legend.MachinimaTool.Page3.Description = Kontrolki Odtwarzacza pozwalają zobaczyć podgląd sceny poprzez animowanie wszystkich aktorów wzdłuż ścieżki znaczników. Używaj ich do przewijania czasu, skakania do znaczników i testowania twojej animacji. Każda klatka zaktualizuje wszystkich aktorów wzdłuż ich ścieżki znaczników, odtwarzając animację.
+builderTools.legend.MachinimaTool.Page3.TogglePause = Przełącznik Odtwórz / Zatrzymaj
+builderTools.legend.MachinimaTool.Page3.ContinuousPlayback = Przełącza Podtrzymywanie Odtwarzania (Granie w pętli)
+builderTools.legend.MachinimaTool.Page3.AutoRestart = Przełącza automatyczny restart na końcu sceny
+builderTools.legend.MachinimaTool.Page3.RestartScene = Odtwórz Scenę od początku
+builderTools.legend.MachinimaTool.Page3.EndScene = Pomiń do ostatniej klatki
+builderTools.legend.MachinimaTool.Page3.NavigationTitle = Nawigacja poklatkowa:
+builderTools.legend.MachinimaTool.Page3.FrameScrub = Skocz do następnej klatki (przytrzymaj aby powtarzać)
+builderTools.legend.MachinimaTool.Page3.JumpKeyframe = Skocz do poprzedniego / następnego znacznika
+builderTools.legend.MachinimaTool.Page3.SpeedModifiers = Przytrzymaj SHIFT aby odtwarzać w szybkości 2x, ALT dla szybkości 0.5x
 
-builderTools.legend.MachinimaTool.Page4.Title = Keyframe Editing
-builderTools.legend.MachinimaTool.Page4.Description = Keyframes define an actor's position, rotation, and settings at specific points in time. The system interpolates between keyframes to create smooth animation paths. Add keyframes to create motion, edit them to fine-tune timing and positioning.
-builderTools.legend.MachinimaTool.Page4.AddKeyframe = Add new keyframe at the end of the actor's track, extending the animation
-builderTools.legend.MachinimaTool.Page4.AddAtCurrentFrame = Insert a keyframe at the current playback position
-builderTools.legend.MachinimaTool.Page4.CopyKeyframe = Copy selected keyframe settings to paste on another actor or frame
-builderTools.legend.MachinimaTool.Page4.DeleteKeyframe = Remove the keyframe you're hovering over
-builderTools.legend.MachinimaTool.Page4.EditKeyframe = Open gizmo to adjust keyframe position and rotation
-builderTools.legend.MachinimaTool.Page4.MoveActor = Reposition the entire actor path as a whole
-builderTools.legend.MachinimaTool.Page4.EditFrameTime = Change when this keyframe occurs in the timeline
-builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Nudge keyframe timing earlier or later
+builderTools.legend.MachinimaTool.Page4.Title = Edytowanie Znaczników
+builderTools.legend.MachinimaTool.Page4.Description = Znaczniki definiują pozycję, rotację i ustawienia aktorów w danym momencie. System nakłada interpolację pomiędzy znacznikami tworząc ścieżki dla płynnej animacji. Dodawaj znaczniki, aby tworzyć ruch. Edytuj je, aby ustawić pozycję i koordynację czasową do perfekcji.
+builderTools.legend.MachinimaTool.Page4.AddKeyframe = Dodaj nowy znacznik na końcu ścieżki aktora, wydłużając animację
+builderTools.legend.MachinimaTool.Page4.AddAtCurrentFrame = Wstaw znacznik w obecnym momencie
+builderTools.legend.MachinimaTool.Page4.CopyKeyframe = Kopiuj ustawienia zaznaczonego znacznika, by móc wkleić je do innego aktora rób klatki
+builderTools.legend.MachinimaTool.Page4.DeleteKeyframe = Usuń znacznik na którym znajduje się kursor myszy
+builderTools.legend.MachinimaTool.Page4.EditKeyframe = Otwórz narzędzie do regulacji pozycji i rotacji znacznika
+builderTools.legend.MachinimaTool.Page4.MoveActor = Przesuń całą ścieżkę aktora jako jeden obiekt
+builderTools.legend.MachinimaTool.Page4.EditFrameTime = Zmień położenie tego znacznika na osi czasu
+builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Przesuń lekko znacznik wstecz lub w przód na osi czasu 
 
-builderTools.legend.MachinimaTool.Page5.Title = Mouse Interactions
-builderTools.legend.MachinimaTool.Page5.Description = Click on keyframe nodes in the world to interact:
-builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Select keyframe (enter Free Move mode)
-builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Set as active and jump to frame
-builderTools.legend.MachinimaTool.Page5.GizmoTitle = Gizmo Controls:
-builderTools.legend.MachinimaTool.Page5.TranslationGizmo = Open Translation Gizmo (axis-locked)
-builderTools.legend.MachinimaTool.Page5.RotationGizmo = Open Rotation Gizmo (head/body)
-builderTools.legend.MachinimaTool.Page5.FreeMoveTitle = Free Move Mode:
-builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = Left-click to confirm position, Right-click to cancel.\n\
-Hold SHIFT to snap to surfaces at distance.\n\
-Hold ALT to ignore surface snapping.
+builderTools.legend.MachinimaTool.Page5.Title = Interakcje Myszki
+builderTools.legend.MachinimaTool.Page5.Description = Kliknij na znacznik w świecie, aby wejść z nim w interakcję:
+builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Wybierz znacznik (aktywuj tryb Dowolnego Ruchu)
+builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Aktywuj znacznik i skocz do klatki
+builderTools.legend.MachinimaTool.Page5.GizmoTitle = Kontrolowanie narzędzi:
+builderTools.legend.MachinimaTool.Page5.TranslationGizmo = Otwórz Narzędzie Pozycji (zablokowane względem osi)
+builderTools.legend.MachinimaTool.Page5.RotationGizmo = Otwórz Narzędzie Rotacji (głowa / ciało)
+builderTools.legend.MachinimaTool.Page5.FreeMoveTitle = Tryb Dowolnego Ruchu:
+builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = Lewy przycisk myszy aby zatwierdzić pozycję, Prawy przycisk myszy aby anulować.\n\
+Przytrzymaj SHIFT przyciągnąć do powierzchni z zachowaniem dystansu.\n\
+Przytrzymaj ALT aby ignorować przyciąganie do powierzchni.
 
 builderTools.legend.MachinimaTool.Page6.Title = Selection Modes
 builderTools.legend.MachinimaTool.Page6.Description = Selection modes determine what gets moved when you use transformation tools. Choose the right mode based on what you want to reposition.
