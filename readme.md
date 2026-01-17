@@ -8,7 +8,7 @@ For example words that can't be translated straight forward will be replaced by 
 I won't be translating any unique names, like dimension or race names that does not exist in real world.
 
 ## Progress
-- Client - ![](https://geps.dev/progress/29) 650 / 2261 lines
+- Client - ![](https://geps.dev/progress/31) 692 / 2261 lines
 - Server - ![](https://geps.dev/progress/1) 69 / 7828 lines
 - Avatar Customization - ![](https://geps.dev/progress/0) 0 / 22 files
 	- Body Characteristics - ![](https://geps.dev/progress/0) 0 / 2 lines

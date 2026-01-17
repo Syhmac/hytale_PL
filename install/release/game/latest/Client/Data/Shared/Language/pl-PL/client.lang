@@ -648,47 +648,47 @@ builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = Lewy przycisk mysz
 Przytrzymaj SHIFT przyciągnąć do powierzchni z zachowaniem dystansu.\n\
 Przytrzymaj ALT aby ignorować przyciąganie do powierzchni.
 
-builderTools.legend.MachinimaTool.Page6.Title = Selection Modes
-builderTools.legend.MachinimaTool.Page6.Description = Selection modes determine what gets moved when you use transformation tools. Choose the right mode based on what you want to reposition.
-builderTools.legend.MachinimaTool.Page6.CycleMode = Cycle between selection modes
-builderTools.legend.MachinimaTool.Page6.KeyframeModeTitle = Keyframe Mode (Default)
-builderTools.legend.MachinimaTool.Page6.KeyframeModeDesc = Moves only the selected keyframe. Use this for precise adjustments to individual points along an actor's path without affecting other keyframes.
-builderTools.legend.MachinimaTool.Page6.ActorModeTitle = Actor Mode
-builderTools.legend.MachinimaTool.Page6.ActorModeDesc = Moves all keyframes for the selected actor together. The entire path shifts as one unit, preserving the shape of the animation.
-builderTools.legend.MachinimaTool.Page6.SceneModeTitle = Scene Mode
-builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Moves the entire scene origin, shifting all actors and their paths together. Useful for relocating your whole machinima to a different area.
+builderTools.legend.MachinimaTool.Page6.Title = Tryby Zaznaczenia
+builderTools.legend.MachinimaTool.Page6.Description = Tryby zaznaczenia decydują co będziesz mógł poruszyć używając narzędzia przenoszenia. Użyj odpowiedniego trybu w zależności od tego co chcesz przesunąć.
+builderTools.legend.MachinimaTool.Page6.CycleMode = Przełącz się pomiędzy trybami zaznaczenia
+builderTools.legend.MachinimaTool.Page6.KeyframeModeTitle = Tryb Znaczników (domyślny)
+builderTools.legend.MachinimaTool.Page6.KeyframeModeDesc = Porusza tylko zaznaczone znaczniki. Użyj tego trybu do precyzyjnych zmian dla indywidualnych punktów wzdłuż ścieżki aktora bez ingerowania w inne znaczniki.
+builderTools.legend.MachinimaTool.Page6.ActorModeTitle = Tryb Aktora
+builderTools.legend.MachinimaTool.Page6.ActorModeDesc = Porusza wszystkie znaczniki wybranego aktora. Cała ścieżka przesuwa się jako jeden obiekt, zachowując kształt animacji.
+builderTools.legend.MachinimaTool.Page6.SceneModeTitle = Tryb Sceny
+builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Porusza główny punkt sceny, przesuwając wszystkich aktorów i ich ścieżki jako jeden obiekt. Przydatne jeśli chcesz przesunąć całe Machinima w inne miejsce.
 
-builderTools.legend.MachinimaTool.Page7.Title = Display & Origin
-builderTools.legend.MachinimaTool.Page7.DisplayTitle = Display Toggles:
-builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Toggle editor overlay display
-builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Toggle path node visibility
-builderTools.legend.MachinimaTool.Page7.ToggleCamera = Toggle camera actor on/off
-builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Toggle camera frustum display
-builderTools.legend.MachinimaTool.Page7.OriginTitle = Scene Origin Controls:
-builderTools.legend.MachinimaTool.Page7.GoToOrigin = Teleport to scene origin
-builderTools.legend.MachinimaTool.Page7.SetOrigin = Set scene origin to player position
-builderTools.legend.MachinimaTool.Page7.OffsetToOrigin = Offset entire scene to player position
+builderTools.legend.MachinimaTool.Page7.Title = Wyświetlanie i Punkt Początkowy
+builderTools.legend.MachinimaTool.Page7.DisplayTitle = Przełączniki Wyświetlania:
+builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Przełącz wyświetlanie nakładki edytora
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Przełącz wyświetlanie ścieżek
+builderTools.legend.MachinimaTool.Page7.ToggleCamera = Włącz / Wyłącz Kamerę
+builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Przełącz wyświetlanie pola widzenia Kamery
+builderTools.legend.MachinimaTool.Page7.OriginTitle = Kontrolowanie Punktu Początkowego Sceny:
+builderTools.legend.MachinimaTool.Page7.GoToOrigin = Teleportuj do Punktu Początkowego Sceny
+builderTools.legend.MachinimaTool.Page7.SetOrigin = Ustaw Punkt Początkowy w pozycji gracza
+builderTools.legend.MachinimaTool.Page7.OffsetToOrigin = Przesuń całą scenę do pozycji gracza
 
-builderTools.legend.MachinimaTool.Page8.Title = Paths & Curves
-builderTools.legend.MachinimaTool.Page8.Description = Choose how keyframes are interpolated:
-builderTools.legend.MachinimaTool.Page8.LinearHeader = Linear (Default)
-builderTools.legend.MachinimaTool.Page8.LinearDesc = Straight lines between keyframes. Simple and predictable movement.
+builderTools.legend.MachinimaTool.Page8.Title = Ścieżki i Krzywe
+builderTools.legend.MachinimaTool.Page8.Description = Wybierz w jaki sposób znaczniki są interpolowane:
+builderTools.legend.MachinimaTool.Page8.LinearHeader = Liniowo (Domyślnie)
+builderTools.legend.MachinimaTool.Page8.LinearDesc = Proste linie pomiędzy znacznikami. Prosty i przewidywalny ruch.
 builderTools.legend.MachinimaTool.Page8.BezierHeader = Bezier
-builderTools.legend.MachinimaTool.Page8.BezierDesc = Smooth curves with control handles you can drag to shape the path.
+builderTools.legend.MachinimaTool.Page8.BezierDesc = Gładkie krzywe z punktami kontrolnymi specyfikującymi kształt ścieżki.
 builderTools.legend.MachinimaTool.Page8.SplineHeader = Spline
-builderTools.legend.MachinimaTool.Page8.SplineDesc = Automatic smooth curves that pass through all keyframes.
-builderTools.legend.MachinimaTool.Page8.BezierCommands = Path Commands:
-builderTools.legend.MachinimaTool.Page8.EnableBezier = Enable bezier
-builderTools.legend.MachinimaTool.Page8.SmoothBezier = Smooth handles
-builderTools.legend.MachinimaTool.Page8.EnableSpline = Enable spline
+builderTools.legend.MachinimaTool.Page8.SplineDesc = Automatyczne wytyczanie krzywych, które przechodzą przez znaczniki.
+builderTools.legend.MachinimaTool.Page8.BezierCommands = Komendy Krzywych:
+builderTools.legend.MachinimaTool.Page8.EnableBezier = Włącz bezier
+builderTools.legend.MachinimaTool.Page8.SmoothBezier = Punkty Kontrolne Ścieżki
+builderTools.legend.MachinimaTool.Page8.EnableSpline = Włącz spline
 
-builderTools.legend.MachinimaTool.Page9.Title = Console Commands
-builderTools.legend.MachinimaTool.Page9.SceneCommands = Scene: .mach scene [list | add | remove | save | load | copy | set | rename | rotate | clear]
-builderTools.legend.MachinimaTool.Page9.ActorCommands = Actor: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
-builderTools.legend.MachinimaTool.Page9.EventCommands = Events: .mach event [list | add | remove]\n\
-Event types: animation, camera, command, particle, target
-builderTools.legend.MachinimaTool.Page9.FileCommands = Files: .mach save | load | files | zip | autosave [seconds]
-builderTools.legend.MachinimaTool.Page9.UtilityCommands = Utility: .mach tool | fps [value] | speed [value] | align | demo [1-7] | restart
+builderTools.legend.MachinimaTool.Page9.Title = Komendy Konsoli
+builderTools.legend.MachinimaTool.Page9.SceneCommands = Scena: .mach scene [list | add | remove | save | load | copy | set | rename | rotate | clear]
+builderTools.legend.MachinimaTool.Page9.ActorCommands = Aktor: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
+builderTools.legend.MachinimaTool.Page9.EventCommands = Wydarzenia: .mach event [list | add | remove]\n\
+Typy wydarzeń: animation, camera, command, particle, target
+builderTools.legend.MachinimaTool.Page9.FileCommands = Pliki: .mach save | load | files | zip | autosave [sekundy]
+builderTools.legend.MachinimaTool.Page9.UtilityCommands = Narzędzia: .mach tool | fps [wartość] | speed [wartość] | align | demo [1-7] | restart
 
 builderTools.legend.PasteTool.Page1.Title = Prefab Pasting Brush
 builderTools.legend.PasteTool.Page1.Description = Allows you to rapidly paste prefabs as if using a brush. Supports most features of the Paintbrush.
