@@ -8,8 +8,8 @@ For example words that can't be translated straight forward will be replaced by 
 I won't be translating any unique names, like dimension or race names that does not exist in real world.
 
 ## Progress
-- Client - ![](https://geps.dev/progress/31) 692 / 2258 lines
-- Server - ![](https://geps.dev/progress/1) 69 / 7885 lines
+- Client - ![](https://geps.dev/progress/35) 796 / 2'258 lines
+- Server - ![](https://geps.dev/progress/1) 69 / 7'885 lines
 - Avatar Customization - ![](https://geps.dev/progress/0) 0 / 22 files
 	- Body Characteristics - ![](https://geps.dev/progress/0) 0 / 2 lines
 	- Capes - ![](https://geps.dev/progress/0) 0 / 15 lines
@@ -34,7 +34,7 @@ I won't be translating any unique names, like dimension or race names that does 
 	- Underwear - ![](https://geps.dev/progress/0) 0 / 4 lines
 	- Variants - ![](https://geps.dev/progress/0) 0 / 34 lines
 
-- Total progress - ![](https://geps.dev/progress/7) 761 / 10'765 lines
+- Total progress - ![](https://geps.dev/progress/8) 865 / 10'765 lines
 
 ## Milestones
 You can expect a release after each of this milestones:

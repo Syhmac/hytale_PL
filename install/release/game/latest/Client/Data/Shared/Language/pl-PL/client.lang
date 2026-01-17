@@ -690,109 +690,109 @@ Typy wydarzeń: animation, camera, command, particle, target
 builderTools.legend.MachinimaTool.Page9.FileCommands = Pliki: .mach save | load | files | zip | autosave [sekundy]
 builderTools.legend.MachinimaTool.Page9.UtilityCommands = Narzędzia: .mach tool | fps [wartość] | speed [wartość] | align | demo [1-7] | restart
 
-builderTools.legend.PasteTool.Page1.Title = Prefab Pasting Brush
-builderTools.legend.PasteTool.Page1.Description = Allows you to rapidly paste prefabs as if using a brush. Supports most features of the Paintbrush.
-builderTools.legend.PasteTool.Page1.LoadPrefabOrCopy = Load a prefab or copy a selection
-builderTools.legend.PasteTool.Page1.UseSelectionContents = To use the contents of a selection, make a selection using the selection tool and type '/copy' then come back to the paste tool to use your copy
-builderTools.legend.PasteTool.Page1.OpensPrefabList = Open the Prefab List; click a prefab to load
-builderTools.legend.PasteTool.Page1.PastePrefab = Paste prefab; hold to brush prefab
-builderTools.legend.PasteTool.Page1.StickPrefab = Attach the prefab to your target or detach if already attached
-builderTools.legend.PasteTool.Page1.RotatePrefabY = Rotate around Y
-builderTools.legend.PasteTool.Page1.RotatePrefabX = Rotate around X
-builderTools.legend.PasteTool.Page1.RotatePrefabZ = Rotate around Z
-builderTools.legend.PasteTool.Page1.ShowTexture = Toggle texture of blocks
-builderTools.legend.PasteTool.Page1.CycleOrigin = Cycle origin (Bottom/Center/Top)
-builderTools.legend.PasteTool.Page2.Title = Modifier Keys
-builderTools.legend.PasteTool.Page2.ShiftPrefabLeftRight = Shift prefab left or right
-builderTools.legend.PasteTool.Page2.ShiftPrefabForwardBackward = Shift prefab forward or backward
-builderTools.legend.PasteTool.Page2.ShiftPrefabUp = Shift prefab up
-builderTools.legend.PasteTool.Page2.ShiftPrefabDown = Shift prefab down
-builderTools.legend.PasteTool.Page2.RotatePrefabLeftRight = Rotate prefab left or right
-builderTools.legend.PasteTool.Page2.RollPrefabLeftRight = Roll prefab left or right
-builderTools.legend.PasteTool.Page2.RollPrefabForwardBackward = Roll prefab forward or backward
-builderTools.legend.PasteTool.Page2.ResetShifting = Reset shifting
+builderTools.legend.PasteTool.Page1.Title = Pędzel Wklejania Prefabrykatów
+builderTools.legend.PasteTool.Page1.Description = Pozwala na szybkie wklejanie prefabrykatów. Wspiera większość funkcji Pędzla.
+builderTools.legend.PasteTool.Page1.LoadPrefabOrCopy = Załaduj prefabrykat lub skopiuj zaznaczony region
+builderTools.legend.PasteTool.Page1.UseSelectionContents = Aby użyć zaznaczonego regionu, zaznacz go używając narzędzia zaznaczania i użyj komendy '/copy'. Teraz możesz wklejać prefabrykat używając narzędzia wklejania.
+builderTools.legend.PasteTool.Page1.OpensPrefabList = Otwórz Listę Prefabrykatów; kliknij prefabrykat, aby go załadować
+builderTools.legend.PasteTool.Page1.PastePrefab = Wklej prefabrykat; przytrzymaj, aby malować prefabrykatem
+builderTools.legend.PasteTool.Page1.StickPrefab = Przyklej prefabrykat do celu, lub do odklej, jeśli jest już przyklejony
+builderTools.legend.PasteTool.Page1.RotatePrefabY = Obracaj wokół osi Y
+builderTools.legend.PasteTool.Page1.RotatePrefabX = Obracaj wokół osi X
+builderTools.legend.PasteTool.Page1.RotatePrefabZ = Obracaj wokół osi Z
+builderTools.legend.PasteTool.Page1.ShowTexture = Przełącz widoczność tekstur na blokach
+builderTools.legend.PasteTool.Page1.CycleOrigin = Przełącz punkt początkowy (Dół, Centrum, Góra)
+builderTools.legend.PasteTool.Page2.Title = Klawisze Modyfikujące
+builderTools.legend.PasteTool.Page2.ShiftPrefabLeftRight = Przesuń prefabrykat w lewo lub w prawo
+builderTools.legend.PasteTool.Page2.ShiftPrefabForwardBackward = Przesuń prefabrykat w tył lub w przód
+builderTools.legend.PasteTool.Page2.ShiftPrefabUp = Przesuń prefabrykat do góry
+builderTools.legend.PasteTool.Page2.ShiftPrefabDown = Przesuń prefabrykat w dół
+builderTools.legend.PasteTool.Page2.RotatePrefabLeftRight = Obróć prefabrykat w lewo lub w prawo
+builderTools.legend.PasteTool.Page2.RollPrefabLeftRight = Przewróć prefabrykat w lewo lub w prawo
+builderTools.legend.PasteTool.Page2.RollPrefabForwardBackward = Przewróć prefabrykat do przodu lub do tyłu
+builderTools.legend.PasteTool.Page2.ResetShifting = Resetuj Przesunięcie
 
-builderTools.legend.SculptBrush.Page1.Title = Sculpt Brush
-builderTools.legend.SculptBrush.Page1.Description = Allows you to raise and lower the terrain to more accurately sculpt and blend shapes. Supports most features of the Paintbrush.
-builderTools.legend.SculptBrush.Page1.MeltAwayBlocks = Melt away blocks where you are aiming, layer by layer
-builderTools.legend.SculptBrush.Page1.RaiseLayer = Raise a layer of blocks where you're aiming
-builderTools.legend.SculptBrush.Page1.Smooth = Smooth rough terrain
-builderTools.legend.SculptBrush.Page1.MaterialSelectedDescription = When a material is selected, places a layer of that material where you're aiming
-builderTools.legend.SculptBrush.Page1.SelectTargetMaterial = Select targeted material
-builderTools.legend.SculptBrush.Page1.UndoLastBrush = Undo last brush action
-builderTools.legend.SculptBrush.Page1.RedoLastUndo = Redo last undone action
-builderTools.legend.SculptBrush.Page1.EditInventoryProperties = Edit materials, size, shape, and other properties from the inventory
+builderTools.legend.SculptBrush.Page1.Title = Pędzel Rzeźbiący
+builderTools.legend.SculptBrush.Page1.Description = Pozwala podwyższać lub obniżać teren aby dokładniej rzeźbić i łączyć kształty. Wspiera większość funkcji Pędzla.
+builderTools.legend.SculptBrush.Page1.MeltAwayBlocks = Usuń bloki w miejscu, w które celujesz, warstwa po warstwie
+builderTools.legend.SculptBrush.Page1.RaiseLayer = Dodaj warstwę bloków w miejscu, w które celujesz
+builderTools.legend.SculptBrush.Page1.Smooth = Wygładź teren
+builderTools.legend.SculptBrush.Page1.MaterialSelectedDescription = Gdy jest wybrany materiał, umieszcza warstwę z tego materiału w miejscu, w które celujesz
+builderTools.legend.SculptBrush.Page1.SelectTargetMaterial = Wybierz docelowy materiał
+builderTools.legend.SculptBrush.Page1.UndoLastBrush = Cofnij ostatnią akcję pędzla
+builderTools.legend.SculptBrush.Page1.RedoLastUndo = Powtórz ostatnio cofniętą akcję
+builderTools.legend.SculptBrush.Page1.EditInventoryProperties = Edytuj materiały, wielkość, kształt, i inne właściwości z poziomu ekwipunku
 
-builderTools.legend.SelectionTool.Page1.Title = Basic Selections
-builderTools.legend.SelectionTool.Page1.CreatingSelection = Creating a Selection:
-builderTools.legend.SelectionTool.Page1.HoldAndDrag = 1. Hold and drag to select first axis, then release
-builderTools.legend.SelectionTool.Page1.AdjustAndClick = 2. Adjust your mouse, then click again to set the third dimension
-builderTools.legend.SelectionTool.Page1.ClearSelection = Clear Selection
-builderTools.legend.SelectionTool.Page1.ClickDragPanels = Click & Drag on Selection Panels
-builderTools.legend.SelectionTool.Page1.ChangeSelectionSize = Change Selection Size
-builderTools.legend.SelectionTool.Page1.MoveSelection = Move Selection
-builderTools.legend.SelectionTool.Page1.ExtrudeFace = Extrude Face
-builderTools.legend.SelectionTool.Page1.MultipleSelections = Multiple Selections:
-builderTools.legend.SelectionTool.Page1.NextSelection = Next Selection
-builderTools.legend.SelectionTool.Page1.PreviousSelection = Previous Selection
-builderTools.legend.SelectionTool.Page1.SetRedPoint = Set Red point to target
-builderTools.legend.SelectionTool.Page1.SetGreenPoint = Set Green point to target
-builderTools.legend.SelectionTool.Page2.Title = Copy / Move / Rotate
-builderTools.legend.SelectionTool.Page2.WithSelectionCreated = With a selection created:
-builderTools.legend.SelectionTool.Page2.ShowMoveTool = Show Move Tool
-builderTools.legend.SelectionTool.Page2.AttachToCursor = Attach Selection to Cursor
-builderTools.legend.SelectionTool.Page2.ShowRotationTool = Show Rotation Tool
-builderTools.legend.SelectionTool.Page2.PasteAndExit = Paste and Exit
-builderTools.legend.SelectionTool.Page2.DuplicatePasteContinue = Duplicate, Paste, and Continue
-builderTools.legend.SelectionTool.Page2.CancelMovement = Cancel movement and rotation
-builderTools.legend.SelectionTool.Page2.DuplicateSelection = Duplicate selection, then enter Move / Rotate mode
-builderTools.legend.SelectionTool.Page2.UsingYourSelection = Using your Selection:
-builderTools.legend.SelectionTool.Page2.CopySelection = Copy Selection
-builderTools.legend.SelectionTool.Page2.CopyUsageOptions = Then use the Paste Tool (brush + preview) or '/paste' command
-builderTools.legend.SelectionTool.Page2.SavingPrefabs = Saving Prefabs:
-builderTools.legend.SelectionTool.Page2.SavePrefabCommand = Save selection as prefab with chat command
-builderTools.legend.SelectionTool.Page2.LoadPrefabReference = See Paste Tool legend for loading prefabs via UI
-builderTools.legend.SelectionTool.Page3.Title = Selection Commands
-builderTools.legend.SelectionTool.Page3.BasicCommands = Basic Commands:\n\
-- /set [Sets selection to blocks]\n\
-- /clear [Clears all blocks in the selection]\n\
-- /walls [Adds walls to selection]\n\
-- /move [Moves the contents of the selection the direction you're facing]\n\
-- /undo and /redo [Undo and Redo X times]\n\
-- /copy [Copies the selection to clipboard]\n\
-- /cut [Cuts the selection to clipboard]\n\
-- /paste [Pastes clipboard at your position]\n\
-- /stack [Stacks the selection in the direction you're facing X times]\n\
-- /replace [Replace one material with another]\n\
-- /hollow [Hollows out a shape leaving the center empty]\n\
-- /flip [Mirror the blocks in the direction you're looking]\n\
-- /rotate [Rotate the selection]\n\
-- /expand [Expand the selection in the direction you're looking]\n\
-- /contract [Shrink the selection by a distance]\n\
-- /deselect [Clear the selection box]
-builderTools.legend.SelectionTool.Page3.SeeHelpMenu = See the '/help' menu for more commands you can run on your selection!
+builderTools.legend.SelectionTool.Page1.Title = Podstawowe Zaznaczanie
+builderTools.legend.SelectionTool.Page1.CreatingSelection = Tworzenia Zaznaczenia:
+builderTools.legend.SelectionTool.Page1.HoldAndDrag = 1. Przytrzymaj i przeciągnij, aby stworzyć pierwszą oś
+builderTools.legend.SelectionTool.Page1.AdjustAndClick = 2. Przesuń mysz w docelowe miejsce i kliknij, aby ustawić trzeci wymiar
+builderTools.legend.SelectionTool.Page1.ClearSelection = Wyczyść Zaznaczenie
+builderTools.legend.SelectionTool.Page1.ClickDragPanels = Kliknij i Przeciągnij na Panelu Zaznaczania
+builderTools.legend.SelectionTool.Page1.ChangeSelectionSize = Zmień Rozmiar Zaznaczenia
+builderTools.legend.SelectionTool.Page1.MoveSelection = Przesuń zaznaczony obszar
+builderTools.legend.SelectionTool.Page1.ExtrudeFace = Wyciągnij Ścianę
+builderTools.legend.SelectionTool.Page1.MultipleSelections = Wiele Zaznaczeń:
+builderTools.legend.SelectionTool.Page1.NextSelection = Następne Zaznaczenie
+builderTools.legend.SelectionTool.Page1.PreviousSelection = Poprzednie Zaznaczenie
+builderTools.legend.SelectionTool.Page1.SetRedPoint = Ustaw Czerwony Punkt na celu
+builderTools.legend.SelectionTool.Page1.SetGreenPoint = Ustaw Zielony Punkt na celu
+builderTools.legend.SelectionTool.Page2.Title = Kopiuj / Przesuń / Obróć
+builderTools.legend.SelectionTool.Page2.WithSelectionCreated = Po utworzeniu zaznaczenia:
+builderTools.legend.SelectionTool.Page2.ShowMoveTool = Pokaż Narzędzie Przesuwania
+builderTools.legend.SelectionTool.Page2.AttachToCursor = Przyklej zaznaczony obszar do Kursora
+builderTools.legend.SelectionTool.Page2.ShowRotationTool = Pokaż Narzędzie Obracania
+builderTools.legend.SelectionTool.Page2.PasteAndExit = Wklej i Wyjdź
+builderTools.legend.SelectionTool.Page2.DuplicatePasteContinue = Duplikuj, Wklej i Kontynuuj
+builderTools.legend.SelectionTool.Page2.CancelMovement = Anuluj przesunięcie i obrót
+builderTools.legend.SelectionTool.Page2.DuplicateSelection = Duplikuj zaznaczony obszar, a następnie wejdź w tryb Przesuwana / Obracania
+builderTools.legend.SelectionTool.Page2.UsingYourSelection = Używając twojego Zaznaczenia:
+builderTools.legend.SelectionTool.Page2.CopySelection = Kopiuj zaznaczony obszar
+builderTools.legend.SelectionTool.Page2.CopyUsageOptions = Następnie użyj Narzędzia wklejania (pędzel + podgląd) lub komendy '/paste'
+builderTools.legend.SelectionTool.Page2.SavingPrefabs = Zapisywanie Prefabrykatów:
+builderTools.legend.SelectionTool.Page2.SavePrefabCommand = Zapisz zaznaczony obszar jako prefabrykat za pomocą komendy
+builderTools.legend.SelectionTool.Page2.LoadPrefabReference = Zobacz Legendę Narzędzia Wklejania aby dowiedzieć się jak załadować prefabrykaty z poziomu UI
+builderTools.legend.SelectionTool.Page3.Title = Komendy Zaznaczania
+builderTools.legend.SelectionTool.Page3.BasicCommands = Podstawowe Komendy:\n\
+- /set [Umieszcza bloki w zaznaczonym obszarze]\n\
+- /clear [Usuwa wszystkie bloki w zaznaczonym obszarze]\n\
+- /walls [Dodaje ściany wokół zaznaczonego obszaru]\n\
+- /move [Przesuwa wszystko w obszarze w kierunku, w którym jesteś obrócony]\n\
+- /undo and /redo [Cofa i Ponawia X razy]\n\
+- /copy [Kopiuje zaznaczony obszar do schowka]\n\
+- /cut [Wycina zaznaczony obszar do schowka]\n\
+- /paste [Wkleja zawartość schowka w twojej pozycji]\n\
+- /stack [Stakuje zaznaczenie w kierunku, w którym jesteś obrócony X razy]\n\
+- /replace [Zastępuje jeden materiał innym materiałem]\n\
+- /hollow [Wydrąża kształt zostawiając pusty środek]\n\
+- /flip [Przeprowadza odbicie lustrzane w kierunku, w którym jesteś obrócony]\n\
+- /rotate [Obraca zaznaczony obszar]\n\
+- /expand [Powiększa zaznaczenie w kierunku, w którym jesteś obrócony]\n\
+- /contract [Zmniejsza zaznaczenie o podany dystans]\n\
+- /deselect [Czyści zaznaczenie]
+builderTools.legend.SelectionTool.Page3.SeeHelpMenu = Użyj komendy '/help' aby poznać więcej komend które można użyć na zaznaczeniu!
 
-builderTools.legend.RulerTool.Page1.Title = Basic Measurements
-builderTools.legend.RulerTool.Page1.Description = The Ruler Tool allows you to measure distances between multiple points in 3D space, with support for multiple measurement lines.
-builderTools.legend.RulerTool.Page1.PlacePoint = Place a measurement point at your target location
-builderTools.legend.RulerTool.Page1.EndCurrentLine = End the current measurement line and start a new one
-builderTools.legend.RulerTool.Page1.SnapToAngles = Hold to enable snapping to 45° angles for precise measurements
-builderTools.legend.RulerTool.Page1.DistanceMeasurement = Distance measurements are displayed at each point and along each line segment. Lines are color-coded: Red (X-axis), Green (Y-axis), Blue (Z-axis), White (diagonal)
+builderTools.legend.RulerTool.Page1.Title = Podstawy Pomiarów
+builderTools.legend.RulerTool.Page1.Description = Narzędzie Linijki pozwala zmierzyć dystans pomiędzy wieloma punktami w trójwymiarowym otoczeniu, wspierając przy tym wiele pomiarów w tym samym czasie.
+builderTools.legend.RulerTool.Page1.PlacePoint = Dodaj punkt pomiarowy w docelowym miejscu
+builderTools.legend.RulerTool.Page1.EndCurrentLine = Zakończ linię pomiarową i zacznij nową
+builderTools.legend.RulerTool.Page1.SnapToAngles = Przytrzymaj aby włączyć przyciąganie do 45° dla precyzyjnych pomiarów
+builderTools.legend.RulerTool.Page1.DistanceMeasurement = Zmierzone dystanse są wyświetlane na każdym z punktów i wzdłuż każdej lini. Kolory lini oznaczają: Czerwony (oś X), Zielony (oś Y), Niebieski (oś Z), Biały (linie ukośne)
 
-builderTools.legend.RulerTool.Page2.Title = Editing Points & Lines
-builderTools.legend.RulerTool.Page2.PointEditing = Editing existing points:
-builderTools.legend.RulerTool.Page2.MovePoint = Right-click on an existing point to pick it up and move it
-builderTools.legend.RulerTool.Page2.DropPoint = Right-click again to drop the point at the new location
-builderTools.legend.RulerTool.Page2.DeletePoint = Delete the hovered point
-builderTools.legend.RulerTool.Page2.ClearCurrentLine = Clear all points from the current line
-builderTools.legend.RulerTool.Page2.ClearAllLines = Clear all lines and reset the tool
+builderTools.legend.RulerTool.Page2.Title = Modyfikowanie Punktów i Linii
+builderTools.legend.RulerTool.Page2.PointEditing = Modyfikowanie istniejących punktów:
+builderTools.legend.RulerTool.Page2.MovePoint = PPM na istniejącym punkcie, aby go podnieść i przenieść
+builderTools.legend.RulerTool.Page2.DropPoint = Ponowne kliknięcie PPM upuści punkt w nowej lokacji
+builderTools.legend.RulerTool.Page2.DeletePoint = Usuń punkt, na którym znajduje się celownik
+builderTools.legend.RulerTool.Page2.ClearCurrentLine = Wyczyść wszystkie punktu na obecnej lini
+builderTools.legend.RulerTool.Page2.ClearAllLines = Wyczyść wszystkie linie i resetuj narzędzie
 
-builderTools.legend.RulerTool.Page3.Title = Multiple Measurement Lines
-builderTools.legend.RulerTool.Page3.Description = The Ruler Tool supports creating and managing multiple separate measurement lines. Each line is tracked independently and can be edited separately.
-builderTools.legend.RulerTool.Page3.NextLine = Switch to the next measurement line
-builderTools.legend.RulerTool.Page3.PreviousLine = Switch to the previous measurement line
-builderTools.legend.RulerTool.Page3.SwitchToLine = Left-click on a point from another line to switch to that line
-builderTools.legend.RulerTool.Page3.WorkflowTip = Tip: After placing points on one line, left-click to finish it and automatically start a new line. Inactive lines are displayed with reduced opacity.
+builderTools.legend.RulerTool.Page3.Title = Wiele Lini Pomiarowych
+builderTools.legend.RulerTool.Page3.Description = Narzędzie Linijki pozwala tworzyć i zarządzać wieloma niezależnymi od siebie liniami pomiarowymi.
+builderTools.legend.RulerTool.Page3.NextLine = Przełącz do następnej lini pomiarowej
+builderTools.legend.RulerTool.Page3.PreviousLine = Przełącz do poprzedniej lini pomiarowej
+builderTools.legend.RulerTool.Page3.SwitchToLine = LPM na punkcie z innej lini, aby przenieść go do aktywnej lini
+builderTools.legend.RulerTool.Page3.WorkflowTip = Podpowiedź: Po umieszczeniu punktów na jednej lini, użyj LPM aby ją zakończyć i automatycznie rozpocząć nową linię. Nieaktywne linie są wyświetlone z większą przezroczystością.
 
 builderTools.legend.SelectPrefabTool.Page1.Title = Prefab Selector
 builderTools.legend.SelectPrefabTool.Page1.Description = The prefab editor creates a temporary environment for editing prefabs and saving them again. If you leave the prefab editor without saving, your changes will be lost.
