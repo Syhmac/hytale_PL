@@ -794,291 +794,291 @@ builderTools.legend.RulerTool.Page3.PreviousLine = Przełącz do poprzedniej lin
 builderTools.legend.RulerTool.Page3.SwitchToLine = LPM na punkcie z innej lini, aby przenieść go do aktywnej lini
 builderTools.legend.RulerTool.Page3.WorkflowTip = Podpowiedź: Po umieszczeniu punktów na jednej lini, użyj LPM aby ją zakończyć i automatycznie rozpocząć nową linię. Nieaktywne linie są wyświetlone z większą przezroczystością.
 
-builderTools.legend.SelectPrefabTool.Page1.Title = Prefab Selector
-builderTools.legend.SelectPrefabTool.Page1.Description = The prefab editor creates a temporary environment for editing prefabs and saving them again. If you leave the prefab editor without saving, your changes will be lost.
-builderTools.legend.SelectPrefabTool.Page1.SelectingPrefabs = Selecting Prefabs:
-builderTools.legend.SelectPrefabTool.Page1.SelectPrefab = Select a prefab by clicking its anchor
-builderTools.legend.SelectPrefabTool.Page1.UnselectPrefab = Unselect the currently selected prefab
-builderTools.legend.SelectPrefabTool.Page1.EditingPrefabs = Editing Prefabs:
-builderTools.legend.SelectPrefabTool.Page1.OpenSaveUI = Open the save/settings UI
-builderTools.legend.SelectPrefabTool.Page1.UpdateBoundingBox = Update the selected prefab's bounding box to your current selection
-builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = Open teleport to prefab UI
-builderTools.legend.SelectPrefabTool.Page1.SetAnchorTitle = Set Anchor Tool:
-builderTools.legend.SelectPrefabTool.Page1.SetAnchorDescription = Use the Set Anchor tool from your inventory to change where the prefab's anchor point is located. The anchor determines where the prefab is placed when spawned.
-builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = Useful Commands:
-builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - Removes all entities from the selected prefab\n\
-/pedit exit - Exits the prefab editor without saving changes
+builderTools.legend.SelectPrefabTool.Page1.Title = Prefabrykaty
+builderTools.legend.SelectPrefabTool.Page1.Description = Edytor prefabrykatów tworzy tymczasowe środowisko przeznaczone do edytowania i zapisywania prefabrykatów. Jeśli opuścisz edytor bez zapisywania, twoje zmiany zostaną utracone.
+builderTools.legend.SelectPrefabTool.Page1.SelectingPrefabs = Wybieranie Prefabrykatów:
+builderTools.legend.SelectPrefabTool.Page1.SelectPrefab = Zaznacz prefabrykat klikając na jego kotwicę
+builderTools.legend.SelectPrefabTool.Page1.UnselectPrefab = Odznacz obecny prefabrykat
+builderTools.legend.SelectPrefabTool.Page1.EditingPrefabs = Edytowanie Prefabrykatów:
+builderTools.legend.SelectPrefabTool.Page1.OpenSaveUI = Otwórz menu zapisu / ustawienia
+builderTools.legend.SelectPrefabTool.Page1.UpdateBoundingBox = Aktualizuj pole ograniczające obecny prefabrykat do twojego obecnego zaznaczenia
+builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = Otwórz menu teleportu do prefabrykatu
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorTitle = Narzędzie Ustawiania Kotwicy:
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorDescription = Użyj Narzędzia Ustawiania Kotwicy z ekwipunku aby zmienić gdzie znajduje się kotwica prefabrykatu. Kotwica określa gdzie pojawi się prefabrykat przy jego postawieniu.
+builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = Użyteczne Komendy:
+builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - Usuwa wszystkie byty znajdujące się na prefabrykacie\n\
+/pedit exit - Wychodzi z edytora bez zapisywania zmian
 
-builderTools.tools.Paste.args.Origin.name = Origin
-builderTools.tools.Paste.args.Origin.values.Anchor = Anchor
-builderTools.tools.Paste.args.Origin.values.Bottom = Bottom
-builderTools.tools.Paste.args.Origin.values.Center = Center
-builderTools.tools.Paste.args.Origin.values.Top = Top
+builderTools.tools.Paste.args.Origin.name = Źródło
+builderTools.tools.Paste.args.Origin.values.Anchor = Kotwica
+builderTools.tools.Paste.args.Origin.values.Bottom = Dół
+builderTools.tools.Paste.args.Origin.values.Center = Środek
+builderTools.tools.Paste.args.Origin.values.Top = Góra
 
-builderTools.legend.EntityTool.Page1.Title = Entity Tool
-builderTools.legend.EntityTool.Page1.Description = Spawn NPCs and models of items, blocks, and creatures. Select, move, rotate, and scale entities in your world.
-builderTools.legend.EntityTool.Page1.SelectingEntities = Selecting Entities:
-builderTools.legend.EntityTool.Page1.SelectEntity = Select/grab entity
-builderTools.legend.EntityTool.Page1.FreeMove = Free move entity (hold and drag)
-builderTools.legend.EntityTool.Page1.CancelMovement = Cancel movement and revert position
-builderTools.legend.EntityTool.Page1.AdjustDistance = Adjust entity distance
+builderTools.legend.EntityTool.Page1.Title = Narzędzie Bytów
+builderTools.legend.EntityTool.Page1.Description = Spawnuj NPCty i modele przedmiotów, bloków i stworów. Zaznaczaj, przenoś, obracaj i skaluj byty na świecie.
+builderTools.legend.EntityTool.Page1.SelectingEntities = Zaznaczanie Bytów:
+builderTools.legend.EntityTool.Page1.SelectEntity = Zaznacz / złap byt
+builderTools.legend.EntityTool.Page1.FreeMove = Przenieś byt (przytrzymaj i przeciągnij)
+builderTools.legend.EntityTool.Page1.CancelMovement = Anuluj ruch i przywróć pozycję
+builderTools.legend.EntityTool.Page1.AdjustDistance = Dostosuj odległość bytów
 
-builderTools.legend.EntityTool.Page2.Title = Transform Modes
-builderTools.legend.EntityTool.Page2.TransformModes = Transform Modes:
-builderTools.legend.EntityTool.Page2.TranslateMode = Enter translation mode
-builderTools.legend.EntityTool.Page2.RotateMode = Enter rotation mode
-builderTools.legend.EntityTool.Page2.RotateHeadMode = Enter head rotation mode
-builderTools.legend.EntityTool.Page2.FreeMoveMode = Attach to cursor
-builderTools.legend.EntityTool.Page2.Scale = Scale selected entity
+builderTools.legend.EntityTool.Page2.Title = Tryb przerabiania
+builderTools.legend.EntityTool.Page2.TransformModes = Tryby przerabiania:
+builderTools.legend.EntityTool.Page2.TranslateMode = Wejdź w tryb przesuwania
+builderTools.legend.EntityTool.Page2.RotateMode = Wejdź w tryb obracania
+builderTools.legend.EntityTool.Page2.RotateHeadMode = Wejdź w tryb obracania głowy
+builderTools.legend.EntityTool.Page2.FreeMoveMode = Przyklej do kursora
+builderTools.legend.EntityTool.Page2.Scale = Skaluj wybrany byt
 
-builderTools.legend.EntityTool.Page3.Title = Actions
-builderTools.legend.EntityTool.Page3.EntityActions = Entity Actions:
-builderTools.legend.EntityTool.Page3.Clone = Clone selected entity
-builderTools.legend.EntityTool.Page3.Remove = Remove selected entity
-builderTools.legend.EntityTool.Page3.Freeze = Toggle entity freeze
-builderTools.legend.EntityTool.Page3.MovementOptions = Movement Options:
-builderTools.legend.EntityTool.Page3.SurfaceLock = Toggle surface lock mode
-builderTools.legend.EntityTool.Page3.SpawnUI = Spawn UI:
-builderTools.legend.EntityTool.Page3.OpenSpawnUI = Open Entity Spawn UI
+builderTools.legend.EntityTool.Page3.Title = Akcje
+builderTools.legend.EntityTool.Page3.EntityActions = Akcje Bytów:
+builderTools.legend.EntityTool.Page3.Clone = Klonuj wybrany byt
+builderTools.legend.EntityTool.Page3.Remove = Usuń wybrany byt
+builderTools.legend.EntityTool.Page3.Freeze = Przełącz zamrożenie bytu
+builderTools.legend.EntityTool.Page3.MovementOptions = Opcje Poruszania:
+builderTools.legend.EntityTool.Page3.SurfaceLock = Przełącz blokowanie do powierzchni
+builderTools.legend.EntityTool.Page3.SpawnUI = Menu spawnowania:
+builderTools.legend.EntityTool.Page3.OpenSpawnUI = Otwórz menu spawnowania bytów
 
-builderTools.panel.selectedEntity = Selected Entity
-builderTools.panel.entitySettings = Entity Tool Settings
-builderTools.panel.noSelection = No entity selected
-builderTools.panel.entityType = Type
+builderTools.panel.selectedEntity = Zaznaczony Byt
+builderTools.panel.entitySettings = Ustawienia Narzędzia Bytów
+builderTools.panel.noSelection = Żaden byt nie jest zaznaczony
+builderTools.panel.entityType = Typ
 builderTools.panel.entityModel = Model
-builderTools.panel.entityName = Name
-builderTools.panel.entityPosition = Position
-builderTools.panel.entityRotation = Rotation
-builderTools.panel.entityScale = Scale
-builderTools.panel.entityAllowPickup = Allow Pickup
-builderTools.panel.entityClone = Clone
-builderTools.panel.entityRemove = Remove
-builderTools.panel.entityPin = Pin Entity
-builderTools.panel.entityUnpin = Unpin Entity
-builderTools.panel.surfaceLock = Lock to Surface
-builderTools.panel.gridSnap = Grid Snap
-builderTools.panel.gridSize = Grid Size
+builderTools.panel.entityName = Nazwa
+builderTools.panel.entityPosition = Pozycja
+builderTools.panel.entityRotation = Obrót
+builderTools.panel.entityScale = Skala
+builderTools.panel.entityAllowPickup = Zezwól na podnoszenie przedmiotów
+builderTools.panel.entityClone = Klonuj
+builderTools.panel.entityRemove = Usuń
+builderTools.panel.entityPin = PRzypnij Byt
+builderTools.panel.entityUnpin = Odepnij Byt
+builderTools.panel.surfaceLock = Zablokuj do powierzchni
+builderTools.panel.gridSnap = Wyrównywanie do siatki
+builderTools.panel.gridSize = Rozmiar siatki
 
-builderTools.commands.clearEntities.description = Removes all entities in the current selection.
+builderTools.commands.clearEntities.description = Usuwa wszystkie byty w zaznaczonym regionie.
 
 builderTools.entityType.npc = NPC
-builderTools.entityType.item = Item
+builderTools.entityType.item = Przedmiot
 builderTools.entityType.model = Model
-builderTools.entityType.unknown = Unknown
+builderTools.entityType.unknown = Nieznany
 builderTools.entityModel.fallback.npc = NPC #{id}
-builderTools.entityModel.fallback.item = Item #{id}
-builderTools.entityModel.fallback.block = Block #{id}
+builderTools.entityModel.fallback.item = Przedmiot #{id}
+builderTools.entityModel.fallback.block = Blok #{id}
 builderTools.entityModel.fallback.unknown = #{id}
 
-builderTools.panel.entityLightEnabled = Light Enabled
-builderTools.panel.entityLightColor = Light Color
-builderTools.panel.entityLightRadius = Light Radius
-builderTools.panel.npcDebug = NPC Debug
-builderTools.panel.npcState = State
-builderTools.panel.npcHealth = Health
+builderTools.panel.entityLightEnabled = Oświetlenie Włączone
+builderTools.panel.entityLightColor = Kolor Światła
+builderTools.panel.entityLightRadius = Zasięg Światła
+builderTools.panel.npcDebug = Debugowanie NPC
+builderTools.panel.npcState = Stan
+builderTools.panel.npcHealth = Życie
 builderTools.panel.npcStamina = Stamina
-builderTools.panel.npcSpeed = Speed
-builderTools.panel.npcTarget = Target
-builderTools.panel.npcTarget.none = None
+builderTools.panel.npcSpeed = Szybkość
+builderTools.panel.npcTarget = Cel
+builderTools.panel.npcTarget.none = Brak
 # === confirmQuitOverlay ===
-confirmQuitOverlay.title = Quit Game
-confirmQuitOverlay.text = Are you sure you want to quit?
+confirmQuitOverlay.title = Wyjdź z Gry
+confirmQuitOverlay.text = Czy jesteś pewien, że chcesz wyjść?
 
-confirmQuitOverlay.buttons.returnToGame = Return to Game
-confirmQuitOverlay.buttons.quitToDesktop = Quit to Desktop
+confirmQuitOverlay.buttons.returnToGame = Wróć do Gry
+confirmQuitOverlay.buttons.quitToDesktop = Wyjdź do Pulpitu
 # === contentCreation ===
-contentCreation.pageTitle = Creative Tools
+contentCreation.pageTitle = Narzędzia Kreatywne
 
-contentCreation.introText = This is the hub from which you can access various tools and editors that can aid in the creation of content in Hytale.\n\
+contentCreation.introText = To jest centrum z którego możesz uzyskać dostęp do różnych narzędzi i edytorów które pomogą ci w tworzenia treści w Hytale.\n\
 \n\
-Simply choose one of the tools from the menu above to get started.
+Wybierz jedno z narzędzi z menu, aby rozpocząć.
 
-contentCreation.actionButton.toggleBlockEditingTools = Toggle Block Editing Tools
+contentCreation.actionButton.toggleBlockEditingTools = Przełącz Narzędzia Edycji Bloków
 
-contentCreation.notification.noBlockTargeted = You need to target a block to open it in the Asset Editor.
+contentCreation.notification.noBlockTargeted = Musisz obrać blok za cel, aby móc go otworzyć w Edytorze Zasobów.
 
 # Blockbench Modals
-contentCreation.modal.blockbench.installRequired.title = Blockbench Installation Required
-contentCreation.modal.blockbench.installRequired.text = We are using Blockbench for 3D model editing. It seems like you don't have Blockbench installed.\n\nIt is only possible to launch Blockbench from Hytale if you installed Blockbench using the installer. \n\nWould you like to install it now from their website?
-contentCreation.modal.blockbench.installRequired.confirm = Install Blockbench
-contentCreation.modal.blockbench.pluginRequired.title = Hytale Plugin Required
-contentCreation.modal.blockbench.pluginRequired.text = It seems like you have Blockbench installed, but the Hytale plugin is missing.\n\nPlease install the Hytale plugin. You can find the instructions for doing so on the Blockbench website.
-contentCreation.modal.blockbench.pluginRequired.confirm = Show Install Instructions
-contentCreation.modal.blockbench.launchFailed.title = Failed to Launch Blockbench
-contentCreation.modal.blockbench.launchFailed.text = Blockbench was found on your system, but we were unable to launch it.\n\nPlease try launching Blockbench manually.
+contentCreation.modal.blockbench.installRequired.title = Wymagana Instalacja Programu Blockbench
+contentCreation.modal.blockbench.installRequired.text = Używamy Blockbench do edytowania modeli 3D. Wygląda na to, że nie masz go zainstalowanego.\n\nMożesz otworzyć Blockbench z poziomu Hytale tylko jeśli zainstalowałeś go za pomocą instalatora.\n\nCzy chcesz zainstalować ten program teraz z ich strony?
+contentCreation.modal.blockbench.installRequired.confirm = Instaluj Blockbench
+contentCreation.modal.blockbench.pluginRequired.title = Wymagane Rozszerzenie do Hytale
+contentCreation.modal.blockbench.pluginRequired.text = Wygląda na to, że masz zainstalowany program Blockbench, ale brakuje w nim Rozszerzenia do Hytale.\n\nZainstaluj najpierw Rozszerzenie. Możesz znaleźć instrukcje jak to zrobić na stronie programu Blockbench.
+contentCreation.modal.blockbench.pluginRequired.confirm = Pokaż Instrukcję Instalacji
+contentCreation.modal.blockbench.launchFailed.title = Nie udało się otworzyć programu Blockbench
+contentCreation.modal.blockbench.launchFailed.text = Znaleźliśmy Blockbench na twoim systemie, ale nie udało nam się go otworzyć.\n\nSpróbuj otworzyć program manualnie.
 
-contentCreation.navigation.assets = Assets
+contentCreation.navigation.assets = Zasoby
 
-contentCreation.navigation.assetEditor = Asset Editor
-contentCreation.navigation.assetEditor.tooltipTitle = Launch Asset Editor App
-contentCreation.navigation.assetEditor.tooltipDesc = This launches an external program that allows you to live-edit game config assets.
-contentCreation.navigation.blockbench = Model Editor
-contentCreation.navigation.blockbench.tooltipTitle = Launch Blockbench App (Model Editor)
-contentCreation.navigation.blockbench.tooltipDesc = Create your own models and animations for Hytale.
-contentCreation.navigation.nodeeditor = Asset Node Editor
-contentCreation.navigation.nodeeditor.tooltipTitle = Launch Asset Node Editor App
-contentCreation.navigation.nodeeditor.tooltipDesc = Edit assets using a visual scripting node editor.
+contentCreation.navigation.assetEditor = Edytor Zasobów
+contentCreation.navigation.assetEditor.tooltipTitle = Otwórz Aplikację Edytora Zasobów
+contentCreation.navigation.assetEditor.tooltipDesc = To otwiera zewnętrzny program, który pozwala na edytowanie na żywo zasobów gry.
+contentCreation.navigation.blockbench = Edytor Modeli
+contentCreation.navigation.blockbench.tooltipTitle = Otwórz Program Blockbench (Edytor Modeli)
+contentCreation.navigation.blockbench.tooltipDesc = Twórz własne modele i animacji do Hytale.
+contentCreation.navigation.nodeeditor = Edytor Węzłów dla Zasobów
+contentCreation.navigation.nodeeditor.tooltipTitle = Otwórz Aplikację do edycji Węzłów dla Zasobów
+contentCreation.navigation.nodeeditor.tooltipDesc = Edytuj zasoby używając graficznego edytora węzłów.
 contentCreation.navigation.machinima = Machinima
-contentCreation.navigation.machinima.tooltipTitle = Open Machinima Editor
-contentCreation.navigation.machinima.tooltipDesc = Create your own movies inside Hytale using the Machinima editor.
-contentCreation.navigation.buildertools = Builder Tools
-contentCreation.navigation.buildertools.tooltipTitle = Open Builder Tools
-contentCreation.navigation.buildertools.tooltipDesc = Block Editing Tools (Selection, Brush, Sculpt, Etc.)\n\
+contentCreation.navigation.machinima.tooltipTitle = Otwórz Edytor Machinima
+contentCreation.navigation.machinima.tooltipDesc = Twórz swoje własne filmy w Hytale używając Edytora Machinima.
+contentCreation.navigation.buildertools = Narzędzia Budowniczego
+contentCreation.navigation.buildertools.tooltipTitle = Otwórz Narzędzia Budowniczego
+contentCreation.navigation.buildertools.tooltipDesc = Narzędzie Edycji Bloków (Zaznaczanie, Pędzle, Rzeźbienie, itp.)\n\
 \n\
-Modify the blocks in your world with the block editing tools found in the tools tabs of the creative inventory.
+Modyfikuj bloki w twoim świecie używając narzędzi edycji bloków które możesz znaleźć w zakładce narzędzi w kreatywnym ekwipunku.
 
-contentCreation.modal.nodeeditor.nonsupported.title = Unsupported platform
-contentCreation.modal.nodeeditor.nonsupported.text = The node editor is currently not supported on your platform.\n\nAt this time we only support Windows and are working on bringing this feature to all PC platforms.
+contentCreation.modal.nodeeditor.nonsupported.title = Niekompatybilna platforma
+contentCreation.modal.nodeeditor.nonsupported.text = Edytor węzłów nie jest obecnie wspierany na twojej platformie.\n\nW tej chwili wspieramy tylko system Windows, ale pracujemy nad dodanie wsparcia dla wszystkich platform.
 
-contentCreation.navigation.worldtools = World
-contentCreation.navigation.worldtools.prefabEditor = Prefab Editor
-contentCreation.navigation.worldtools.prefabEditor.tooltipTitle = Create or edit prefabs in a separate space.
-contentCreation.navigation.worldtools.prefabList = Prefab List
-contentCreation.navigation.worldtools.prefabList.tooltipTitle = List all user created prefabs; click one to load it into the Paste Tool.
-contentCreation.navigation.worldtools.spawnEntity = Spawn Entity
-contentCreation.navigation.worldtools.spawnParticle = Spawn Particle
-contentCreation.navigation.worldtools.changeModel = Change Player Model
-contentCreation.navigation.worldtools.tintChunk = Tint Chunk
-contentCreation.navigation.worldtools.instances = Instances
-contentCreation.navigation.worldtools.playSound = Play Sound
-contentCreation.navigation.worldtools.playSound.tooltipTitle = Browse and play sound events.
-contentCreation.navigation.worldtools.importObj = Import OBJ
-contentCreation.navigation.worldtools.importObj.tooltipTitle = Convert 3D OBJ models to voxels and copy to clipboard.
-contentCreation.navigation.worldtools.importImage = Import Image
+contentCreation.navigation.worldtools = Świat
+contentCreation.navigation.worldtools.prefabEditor = Edytor Prefabrykatów
+contentCreation.navigation.worldtools.prefabEditor.tooltipTitle = Twórz lub edytuj prefabrykaty w osobnym środowisku.
+contentCreation.navigation.worldtools.prefabList = Lista Prefabrykatów
+contentCreation.navigation.worldtools.prefabList.tooltipTitle = Pokaż wszystkie prefabrykaty stworzone przez użytkowników; kliknij na jeden z nich aby go załadować do Narzędzia Wklejania.
+contentCreation.navigation.worldtools.spawnEntity = Zespawnuj Byt
+contentCreation.navigation.worldtools.spawnParticle = Zespawnuj Cząsteczkę
+contentCreation.navigation.worldtools.changeModel = Zmień Model Gracza
+contentCreation.navigation.worldtools.tintChunk = Zmień kolor Chunka
+contentCreation.navigation.worldtools.instances = Instancje
+contentCreation.navigation.worldtools.playSound = Zagraj Dźwięk
+contentCreation.navigation.worldtools.playSound.tooltipTitle = Wyszukuj i uruchamiaj wydarzenia dźwiękowe.
+contentCreation.navigation.worldtools.importObj = Importuj OBJ
+contentCreation.navigation.worldtools.importObj.tooltipTitle = Konwertuje obiekt 3D formatu OBJ do voxeli i kopiuje go do schowka. 
+contentCreation.navigation.worldtools.importImage = Importuj Obraz
 
-contentCreation.navigation.help = Help
-contentCreation.navigation.help.commands = Commands
-# === controls ===
-# Timeline Control
-controls.timeline.tooltip.muteTrack = Mute Track
-controls.timeline.tooltip.playPause = Play/Pause
-controls.timeline.tooltip.stop = Stop
-controls.timeline.tooltip.addTrack = Add Track
+contentCreation.navigation.help = Pomoc
+contentCreation.navigation.help.commands = Komendy
+# === controls / sterowanie ===
+# Timeline Control / Sterowanie Osi Czasu
+controls.timeline.tooltip.muteTrack = Wycisz Ścieżkę
+controls.timeline.tooltip.playPause = Odtwórz / Zatrzymaj
+controls.timeline.tooltip.stop = Przerwij
+controls.timeline.tooltip.addTrack = Dodaj Ścieżkę
 controls.timeline.button.autoRestart = Auto Restart
-controls.timeline.tooltip.toggleLoop = Toggle Loop
-controls.timeline.label.time = Time: {time}s
-controls.timeline.label.frame = Frame: {frame}
-controls.timeline.label.duration = Duration: {duration}
+controls.timeline.tooltip.toggleLoop = Przełącz Zapętlanie
+controls.timeline.label.time = Czas: {time}s
+controls.timeline.label.frame = Klatka: {frame}
+controls.timeline.label.duration = Długość: {duration}
 controls.timeline.label.fps = FPS: {fps}
-controls.timeline.tooltip.keyframe = Frame: {time}
+controls.timeline.tooltip.keyframe = Klatka: {time}
 # === devTools ===
-devTools.tabs.Console = Console
-devTools.tabs.GameInfo = Game Info
+devTools.tabs.Console = Konsola
+devTools.tabs.GameInfo = Informacje o Grze
 
-devTools.options = Options
+devTools.options = Opcje
 
-devTools.popupMenu.copyGameInfo = Copy game info to clipboard
-devTools.popupMenu.createDefect = Create Defect
+devTools.popupMenu.copyGameInfo = Kopiuj informacje o grze do schowka
+devTools.popupMenu.createDefect = Stwórz Defekt
 
-devTools.gameStats.popupMenu.editInAssetEditor = Edit in Asset Editor
-devTools.gameStats.popupMenu.copyValue = Copy Value
+devTools.gameStats.popupMenu.editInAssetEditor = Edytuj w Edytorze Zasobów
+devTools.gameStats.popupMenu.copyValue = Kopiuj Wartość
 
-devTools.logEntry.popupMenu.copyMessage = Copy Message
+devTools.logEntry.popupMenu.copyMessage = Kopiuj Wiadomość
 
 devTools.gameInfo.sections.Build = Build
-devTools.gameInfo.sections.Hardware = Hardware
-devTools.gameInfo.sections.World = World
-devTools.gameInfo.sections.Chunks = Chunks
-devTools.gameInfo.sections.AtlasSizes = Atlas Sizes
-devTools.gameInfo.sections.Assets = Assets
+devTools.gameInfo.sections.Hardware = Specyfikacja
+devTools.gameInfo.sections.World = Świat
+devTools.gameInfo.sections.Chunks = Chunki
+devTools.gameInfo.sections.AtlasSizes = Wielkosci Atlasów
+devTools.gameInfo.sections.Assets = Zasoby
 devTools.gameInfo.sections.UI = UI
-devTools.gameInfo.sections.Particles = Particles
-devTools.gameInfo.sections.Network = Network
+devTools.gameInfo.sections.Particles = Cząsteczki
+devTools.gameInfo.sections.Network = Sieć
 
-devTools.gameInfo.keys.Branch = Branch
-devTools.gameInfo.keys.Revision = Revision
-devTools.gameInfo.keys.FrameworkVersion = .Net version
+devTools.gameInfo.keys.Branch = Gałąź
+devTools.gameInfo.keys.Revision = Rewizja
+devTools.gameInfo.keys.FrameworkVersion = wersja .Net
 
 devTools.gameInfo.keys.GPUVendor = GPU
-devTools.gameInfo.keys.GPURenderer = GPU Renderer
-devTools.gameInfo.keys.GPUVersion = GPU Version
-devTools.gameInfo.keys.WindowSize = Window Size
-devTools.gameInfo.keys.ViewportSize = Viewport Size
-devTools.gameInfo.keys.SceneSize = Scene Size
+devTools.gameInfo.keys.GPURenderer = Renderer GPU
+devTools.gameInfo.keys.GPUVersion = Wersja GPU
+devTools.gameInfo.keys.WindowSize = Rozmiar Okna
+devTools.gameInfo.keys.ViewportSize = Rozmiar Widoku
+devTools.gameInfo.keys.SceneSize = Rozmiar Sceny
 
-devTools.gameInfo.keys.Biome = Biome
-devTools.gameInfo.keys.Zone = Zone
-devTools.gameInfo.keys.Environment = Environment
-devTools.gameInfo.keys.Weather = Weather
-devTools.gameInfo.keys.Entities = Entities
-devTools.gameInfo.keys.AudioEvents = Audio Events
-devTools.gameInfo.keys.SoundEffect = Sound Effect
-devTools.gameInfo.keys.ViewDistance = View Distance
-devTools.gameInfo.keys.Heightmap = Heightmap
-devTools.gameInfo.keys.Tint = Tint
-devTools.gameInfo.keys.Light = Light
-devTools.gameInfo.keys.Music = Music
-devTools.gameInfo.keys.TargetBlock = Target Block
+devTools.gameInfo.keys.Biome = Biom
+devTools.gameInfo.keys.Zone = Strefa
+devTools.gameInfo.keys.Environment = Środowisko
+devTools.gameInfo.keys.Weather = Pogoda
+devTools.gameInfo.keys.Entities = Byty
+devTools.gameInfo.keys.AudioEvents = Efekty Audio
+devTools.gameInfo.keys.SoundEffect = Efekty Dźwiękowe
+devTools.gameInfo.keys.ViewDistance = Odległość Widoczności
+devTools.gameInfo.keys.Heightmap = Mapa Wysokości (Heightmap)
+devTools.gameInfo.keys.Tint = Odcień
+devTools.gameInfo.keys.Light = Światło
+devTools.gameInfo.keys.Music = Muzyka
+devTools.gameInfo.keys.TargetBlock = Oznaczony Blok
 devTools.gameInfo.keys.HitBox = Hit Box
-devTools.gameInfo.keys.Orientation = Orientation
-devTools.gameInfo.keys.FeetPosition = Feet Position
-devTools.gameInfo.keys.ChunkPosition = Chunk Position
+devTools.gameInfo.keys.Orientation = Orientacja
+devTools.gameInfo.keys.FeetPosition = Pozycja Stóp
+devTools.gameInfo.keys.ChunkPosition = Pozycja Chunka
 
-devTools.gameInfo.keys.MapAtlasSize = Map
-devTools.gameInfo.keys.EntityAtlasSize = Entity
-devTools.gameInfo.keys.IconAtlasSize = Icon
+devTools.gameInfo.keys.MapAtlasSize = Mapa
+devTools.gameInfo.keys.EntityAtlasSize = Byty
+devTools.gameInfo.keys.IconAtlasSize = Ikony
 devTools.gameInfo.keys.UIAtlasSize = UI
-devTools.gameInfo.keys.CustomUIAtlasSize = Custom UI
+devTools.gameInfo.keys.CustomUIAtlasSize = Własne UI
 
-devTools.gameInfo.keys.ChunksLoaded = Loaded
-devTools.gameInfo.keys.ChunksDrawable = Drawable
+devTools.gameInfo.keys.ChunksLoaded = Załadowane
+devTools.gameInfo.keys.ChunksDrawable = Rysowane
 devTools.gameInfo.keys.ChunksMax = Max
-devTools.gameInfo.keys.ChunksQueued = Queued
-devTools.gameInfo.keys.ChunksRebuilding = Rebuilding
-devTools.gameInfo.keys.ChunksUploadReady = Upload Ready
-devTools.gameInfo.keys.ChunksToUpdate = To Update
-devTools.gameInfo.keys.ChunksUpToDate = Up to Date
+devTools.gameInfo.keys.ChunksQueued = W kolejce
+devTools.gameInfo.keys.ChunksRebuilding = Przebudowywanie
+devTools.gameInfo.keys.ChunksUploadReady = Gotowe do Wysłania
+devTools.gameInfo.keys.ChunksToUpdate = Przeznaczone do aktualizacji
+devTools.gameInfo.keys.ChunksUpToDate = Aktualne
 
-devTools.gameInfo.keys.ActivelyReferencedAssets = Actively Referenced
-devTools.gameInfo.keys.BuiltInAssets = Built-in
-devTools.gameInfo.keys.CachedAssets = Cached
+devTools.gameInfo.keys.ActivelyReferencedAssets = Aktywnie Odwoływany
+devTools.gameInfo.keys.BuiltInAssets = Wbudowany
+devTools.gameInfo.keys.CachedAssets = W pamięci podręcznej
 
-devTools.gameInfo.keys.UIScale = Scale
+devTools.gameInfo.keys.UIScale = Skala
 
-devTools.gameInfo.keys.ParticleSystems = Systems
-devTools.gameInfo.keys.ParticleProxies = Proxies
-devTools.gameInfo.keys.ParticleBlend = Blend
-devTools.gameInfo.keys.ParticleDistortion = Distortion
-devTools.gameInfo.keys.ParticleErosion = Erosion
+devTools.gameInfo.keys.ParticleSystems = Systemy
+devTools.gameInfo.keys.ParticleProxies = Proxy
+devTools.gameInfo.keys.ParticleBlend = Blendowanie
+devTools.gameInfo.keys.ParticleDistortion = Zniekształcenie
+devTools.gameInfo.keys.ParticleErosion = Erozja
 
-devTools.gameInfo.keys.NetworkSent = Sent
-devTools.gameInfo.keys.NetworkReceived = Received
-# === disconnection ===
-disconnection.title.disconnected = Disconnected from server
-disconnection.title.failedToConnect = Failed to connect to server
+devTools.gameInfo.keys.NetworkSent = Wysłane
+devTools.gameInfo.keys.NetworkReceived = Otrzymane
+# === disconnection // rozłącznie ===
+disconnection.title.disconnected = Rozłączono z serwerem
+disconnection.title.failedToConnect = Nie udało się połączyć z serwerem
 
-disconnection.button.quitToMainMenu = Quit to Main Menu
-disconnection.button.reconnect = Reconnect
-disconnection.button.reconnect.inProgress = Reconnecting...
+disconnection.button.quitToMainMenu = Wyjdź do Menu Głównego
+disconnection.button.reconnect = Połącz Ponownie
+disconnection.button.reconnect.inProgress = Ponowne łączenie...
 
-disconnection.button.tryAgain = Try Again
-disconnection.button.tryAgain.inProgress = Connecting...
+disconnection.button.tryAgain = Spróbuj Ponownie
+disconnection.button.tryAgain.inProgress = Łącznie...
 
-disconnection.autoConnectingIn = Connecting in {seconds}
+disconnection.autoConnectingIn = Łącznie za {seconds}
 
-disconnection.error.unexpectedError = An unexpected error occurred
-disconnection.error.noConnectectionEstablished = Connection could not be established
-# === gameLoadingView ===
-gameLoadingView.hints.constructionThanks = Thanks for playing while we are under construction!
-gameLoadingView.hints.futureTipsAndTricks = This screen is going to show you tips and tricks to help you with your adventure.
+disconnection.error.unexpectedError = Wystąpił nieprzewidziany błąd
+disconnection.error.noConnectectionEstablished = Nie można było nawiązać połączenia
+# === gameLoadingView / ekran ładowania ===
+gameLoadingView.hints.constructionThanks = Dziękujemy, że grasz w naszą grę, którą dalej budujemy!
+gameLoadingView.hints.futureTipsAndTricks = Ten ekran będzie pokazywał podpowiedzi i triki, które pomogą ci podczas twojej przygody.
 
-gameLoadingView.status.waitingForShutdown = Waiting for server to finish shutting down...
-gameLoadingView.status.connecting = Connecting...
-gameLoadingView.status.connectingP2P = Connecting to {host}'s '{name}'... ({current}/{total})
-gameLoadingView.status.bootingServer = Booting server...
-gameLoadingView.status.enterPassword = Enter server password
-gameLoadingView.status.wrongPassword = Incorrect password. {attempts, plural, one {# attempt} other {# attempts}} remaining.
+gameLoadingView.status.waitingForShutdown = Czekania, aż serwer się wyłączy...
+gameLoadingView.status.connecting = Łącznie...
+gameLoadingView.status.connectingP2P = Łącznie do '{name}' należącego do {host}... ({current}/{total})
+gameLoadingView.status.bootingServer = Włączanie serwera...
+gameLoadingView.status.enterPassword = Podaj hasło do serwera
+gameLoadingView.status.wrongPassword = Niepoprawne hasło. Pozostało {attempts, plural, one {# próba} other {# prób}}. # TODO: Ogarnąć jak tu edytować ten dynamiczny tekst.
 
-gameLoadingView.password.title = Server Password
-gameLoadingView.password.submit = Login
+gameLoadingView.password.title = Hasło do Serwera
+gameLoadingView.password.submit = Zaloguj Się
 # === gamePageNavigation ===
-gamePageNavigation.buttons.Inventory = Inventory
-gamePageNavigation.buttons.Map = Map
-gamePageNavigation.buttons.ContentCreation = Creative Tools
-gamePageNavigation.buttons.ContentCreation.disabledTooltip = The creative menu is only available in Creative mode.
-gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [TMP] CREATIVE MODE
-gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [TMP] In creative mode you gain access to powerful editing tools, to swap to creative mode, '/op self' then toggle gamemode with 'O' hotkey
-gamePageNavigation.earlyAccess = Early Access
+gamePageNavigation.buttons.Inventory = Ekwipunek
+gamePageNavigation.buttons.Map = Mapa
+gamePageNavigation.buttons.ContentCreation = Narzędzia Kreatywne
+gamePageNavigation.buttons.ContentCreation.disabledTooltip = Menu kreatywne jest tylko dostępne w Trybie Kreatywnym.
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [TMP] TRYB KREATYWNY
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [TMP] W trybie kreatywnym dostajesz dostęp do przydatnych narzędzi do edycji. Aby przejść w tryb kreatywny, użyj komendy '/op self' a następnie przełącz tryb gry za pomocą klawisza 'O'
+gamePageNavigation.earlyAccess = Wczesny Dostęp
 # === general ===
 general.button.cancel = Cancel
 general.button.confirm = Confirm
